@@ -32,6 +32,7 @@ def inference(ckpt, net, device, image):
     with torch.no_grad():
         net.eval()
 
+        # image = preprocess(image_path).to(device)
         image = image.to(device)
         image = image.unsqueeze(1)
         image = np.transpose(image, (1, 0, 2, 3))
@@ -59,6 +60,7 @@ class DentHandler(BaseHandler):
     def initialize(self, context):
         self.checkpoint_dir = os.getcwd()
         self.device = "cpu"
+        # self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
         # load backbone network
         self.backbone_net = get_stanford_efficientunet_b4(out_channels=2, concat_input=True, pretrained=True).to(
@@ -79,14 +81,29 @@ class DentHandler(BaseHandler):
         image = data[0].get("data") or data[0].get("body")
         image = np.asarray(Image.open(io.BytesIO(image)).convert("RGB"))
 
-        # inference
+        # print("TYPE: ", type(image))
+
+        # transform
         transformed = self.transform(image=image)
         np_image = transformed["image"]
+
         result = inference(self.checkpoint_file, self.backbone_net, self.device, image=np_image)
 
-        _, buffer = cv2.imencode(".png", result.squeeze().astype("uint8") * 255)
-        content = buffer.tobytes()
+        # encode and make to bytes
+        ## TEMP save
+        save_dir = "/Users/tseo/Documents/Github/viai-serving/RESULT/dent"
+        plt.imsave(os.path.join(save_dir, "dent.png"), result.squeeze(), cmap="gray")
 
-        # TODO: 1. confidence score
-        # TODO: 2. handle exceptions
-        return [content]
+        print("=" * 100)
+        print(result.squeeze().astype("uint8").shape)
+        print(np.max(result.squeeze().astype("uint8")))
+        print(np.min(result.squeeze().astype("uint8")))
+        print("=" * 100)
+
+        ## method: 1
+        # _, buffer = cv2.imencode(".png", result.squeeze().astype("uint8") * 255)
+        # content = buffer.tobytes()
+
+        ## method: 2
+        return [os.path.join(save_dir, "dent.png")]
+        # return [content]

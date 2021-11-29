@@ -1,163 +1,165 @@
-2021-11-28 23:15:08,782 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002
-2021-11-28 23:15:08,786 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - [PID]15195
-2021-11-28 23:15:08,786 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:08,786 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:08,873 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001
-2021-11-28 23:15:08,879 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - [PID]15200
-2021-11-28 23:15:08,880 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:08,881 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:08,899 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004
-2021-11-28 23:15:08,907 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - [PID]15194
-2021-11-28 23:15:08,914 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:08,915 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:08,918 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007
-2021-11-28 23:15:08,923 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - [PID]15196
-2021-11-28 23:15:08,924 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:08,925 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:08,932 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003
-2021-11-28 23:15:08,935 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - [PID]15197
-2021-11-28 23:15:08,936 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006
-2021-11-28 23:15:08,936 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:08,940 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:08,941 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - [PID]15198
-2021-11-28 23:15:08,943 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:08,944 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:08,946 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000
-2021-11-28 23:15:08,951 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - [PID]15199
-2021-11-28 23:15:08,952 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:08,952 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:08,965 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005
-2021-11-28 23:15:08,968 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - [PID]15201
-2021-11-28 23:15:08,969 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:08,972 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:09,198 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007.
-2021-11-28 23:15:09,201 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005.
-2021-11-28 23:15:09,201 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000.
-2021-11-28 23:15:09,198 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006.
-2021-11-28 23:15:09,198 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001.
-2021-11-28 23:15:09,198 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002.
-2021-11-28 23:15:09,198 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004.
-2021-11-28 23:15:09,198 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003.
-2021-11-28 23:15:09,295 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-11-28 23:15:09,296 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-11-28 23:15:09,296 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-11-28 23:15:09,296 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-11-28 23:15:09,297 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-11-28 23:15:09,296 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-11-28 23:15:09,299 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-11-28 23:15:09,304 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-11-28 23:15:12,636 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009
-2021-11-28 23:15:12,664 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - [PID]15208
-2021-11-28 23:15:12,670 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:12,670 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:12,738 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010
-2021-11-28 23:15:12,786 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - [PID]15215
-2021-11-28 23:15:12,824 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012
-2021-11-28 23:15:12,883 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:12,882 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015
-2021-11-28 23:15:12,881 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013
-2021-11-28 23:15:12,878 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011
-2021-11-28 23:15:12,878 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009.
-2021-11-28 23:15:12,877 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023
-2021-11-28 23:15:12,825 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014
-2021-11-28 23:15:12,984 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - [PID]15209
-2021-11-28 23:15:12,993 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - [PID]15210
-2021-11-28 23:15:12,992 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021
-2021-11-28 23:15:12,992 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019
-2021-11-28 23:15:12,992 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008
-2021-11-28 23:15:12,992 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017
-2021-11-28 23:15:12,991 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - [PID]15212
-2021-11-28 23:15:12,991 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020
-2021-11-28 23:15:12,990 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - [PID]15211
-2021-11-28 23:15:12,989 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - [PID]15213
-2021-11-28 23:15:12,987 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:12,987 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018
-2021-11-28 23:15:12,986 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - [PID]15223
-2021-11-28 23:15:12,996 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:12,996 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022
-2021-11-28 23:15:12,997 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:12,997 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:12,998 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - [PID]15220
-2021-11-28 23:15:12,997 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,004 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - [PID]15217
-2021-11-28 23:15:13,015 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - [PID]15218
-2021-11-28 23:15:13,015 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-11-28 23:15:13,013 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016
-2021-11-28 23:15:13,013 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,013 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - [PID]15222
-2021-11-28 23:15:13,013 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,013 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,012 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,012 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,012 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,011 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - [PID]15219
-2021-11-28 23:15:13,009 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - [PID]15214
-2021-11-28 23:15:13,006 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - [PID]15221
-2021-11-28 23:15:13,004 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,035 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,067 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,067 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - [PID]15216
-2021-11-28 23:15:13,067 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,067 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,067 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010.
-2021-11-28 23:15:13,067 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,066 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,066 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,036 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,036 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,092 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,100 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,114 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,114 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,117 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,117 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,118 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-11-28 23:15:13,143 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-11-28 23:15:13,156 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019.
-2021-11-28 23:15:13,154 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013.
-2021-11-28 23:15:13,145 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-11-28 23:15:13,254 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011.
-2021-11-28 23:15:13,196 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018.
-2021-11-28 23:15:13,185 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008.
-2021-11-28 23:15:13,185 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021.
-2021-11-28 23:15:13,185 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023.
-2021-11-28 23:15:13,185 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014.
-2021-11-28 23:15:13,185 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012.
-2021-11-28 23:15:13,184 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017.
-2021-11-28 23:15:13,257 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020.
-2021-11-28 23:15:13,333 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015.
-2021-11-28 23:15:13,333 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-11-28 23:15:13,333 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-11-28 23:15:13,333 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022.
-2021-11-28 23:15:13,380 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-11-28 23:15:13,395 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-11-28 23:15:13,395 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-11-28 23:15:13,394 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-11-28 23:15:13,394 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016.
-2021-11-28 23:15:13,394 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-11-28 23:15:13,392 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-11-28 23:15:13,391 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-11-28 23:15:13,390 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-11-28 23:15:13,406 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-11-28 23:15:13,427 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-11-28 23:15:13,441 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-11-28 23:15:13,431 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-11-28 23:15:25,503 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/307f641f168e482aa8f73ed0c995dccf/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-11-28 23:15:25,504 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/307f641f168e482aa8f73ed0c995dccf/best_imagenet-b4_0.421.pth [0m
-2021-11-28 23:15:25,504 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - ====================================================================================================
-2021-11-28 23:15:25,504 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - (512, 512)
-2021-11-28 23:15:25,504 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 1
-2021-11-28 23:15:25,504 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0
-2021-11-28 23:15:25,504 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - ====================================================================================================
-2021-11-28 23:56:11,133 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
-2021-11-28 23:56:11,145 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
-2021-11-28 23:56:11,154 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
-2021-11-28 23:56:11,172 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
-2021-11-28 23:56:11,183 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
-2021-11-28 23:56:11,237 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/307f641f168e482aa8f73ed0c995dccf/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-11-28 23:56:11,249 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/307f641f168e482aa8f73ed0c995dccf/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-11-28 23:56:11,267 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/307f641f168e482aa8f73ed0c995dccf/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-11-28 23:56:11,284 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/307f641f168e482aa8f73ed0c995dccf/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-11-28 23:56:11,341 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/307f641f168e482aa8f73ed0c995dccf/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-11-28 23:56:11,366 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/307f641f168e482aa8f73ed0c995dccf/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-11-28 23:56:11,453 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-11-29 16:49:12,772 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007
+2021-11-29 16:49:12,781 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000
+2021-11-29 16:49:12,787 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006
+2021-11-29 16:49:12,784 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004
+2021-11-29 16:49:12,790 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001
+2021-11-29 16:49:12,784 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005
+2021-11-29 16:49:12,791 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - [PID]25600
+2021-11-29 16:49:12,784 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - [PID]25597
+2021-11-29 16:49:12,792 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - [PID]25598
+2021-11-29 16:49:12,796 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:12,798 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - [PID]25599
+2021-11-29 16:49:12,800 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - [PID]25595
+2021-11-29 16:49:12,800 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - [PID]25596
+2021-11-29 16:49:12,798 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:12,803 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:12,803 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:12,803 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003
+2021-11-29 16:49:12,803 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:12,803 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:12,803 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:12,804 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:12,804 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - [PID]25601
+2021-11-29 16:49:12,804 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:12,804 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:12,806 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002
+2021-11-29 16:49:12,812 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:12,813 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:12,814 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - [PID]25594
+2021-11-29 16:49:12,814 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:12,814 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:12,814 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:12,814 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:13,051 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007.
+2021-11-29 16:49:13,053 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005.
+2021-11-29 16:49:13,052 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001.
+2021-11-29 16:49:13,052 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006.
+2021-11-29 16:49:13,051 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004.
+2021-11-29 16:49:13,051 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000.
+2021-11-29 16:49:13,051 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002.
+2021-11-29 16:49:13,051 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003.
+2021-11-29 16:49:13,208 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-11-29 16:49:13,239 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-11-29 16:49:13,228 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-11-29 16:49:13,223 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-11-29 16:49:13,217 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-11-29 16:49:13,215 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-11-29 16:49:13,213 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-11-29 16:49:13,210 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-11-29 16:49:16,628 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011
+2021-11-29 16:49:16,631 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - [PID]25606
+2021-11-29 16:49:16,632 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009
+2021-11-29 16:49:16,633 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:16,633 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:16,634 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - [PID]25609
+2021-11-29 16:49:16,634 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:16,634 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:16,670 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009.
+2021-11-29 16:49:16,708 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013
+2021-11-29 16:49:16,710 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012
+2021-11-29 16:49:16,709 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010
+2021-11-29 16:49:16,709 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008
+2021-11-29 16:49:16,709 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011.
+2021-11-29 16:49:16,713 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - [PID]25605
+2021-11-29 16:49:16,716 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - [PID]25607
+2021-11-29 16:49:16,716 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - [PID]25604
+2021-11-29 16:49:16,716 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - [PID]25608
+2021-11-29 16:49:16,756 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-11-29 16:49:16,772 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:16,774 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014
+2021-11-29 16:49:16,774 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015
+2021-11-29 16:49:16,774 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:16,779 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:16,789 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:16,788 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - [PID]25611
+2021-11-29 16:49:16,785 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - [PID]25610
+2021-11-29 16:49:16,779 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:16,779 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:16,792 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:16,793 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:16,793 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:16,793 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:16,793 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:16,794 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:16,794 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-11-29 16:49:16,827 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014.
+2021-11-29 16:49:16,827 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008.
+2021-11-29 16:49:16,838 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010.
+2021-11-29 16:49:16,836 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012.
+2021-11-29 16:49:16,836 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013.
+2021-11-29 16:49:16,844 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015.
+2021-11-29 16:49:16,901 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-11-29 16:49:16,979 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-11-29 16:49:16,973 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-11-29 16:49:16,972 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-11-29 16:49:16,996 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-11-29 16:49:17,008 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-11-29 16:49:20,741 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020
+2021-11-29 16:49:20,744 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - [PID]25619
+2021-11-29 16:49:20,745 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:20,746 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:20,757 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021
+2021-11-29 16:49:20,761 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016
+2021-11-29 16:49:20,773 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - [PID]25615
+2021-11-29 16:49:20,774 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - [PID]25612
+2021-11-29 16:49:20,777 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022
+2021-11-29 16:49:20,780 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:20,779 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018
+2021-11-29 16:49:20,779 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:20,783 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017
+2021-11-29 16:49:20,777 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020.
+2021-11-29 16:49:20,786 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - [PID]25617
+2021-11-29 16:49:20,788 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:20,788 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:20,786 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - [PID]25614
+2021-11-29 16:49:20,789 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - [PID]25618
+2021-11-29 16:49:20,789 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:20,789 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:20,789 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:20,789 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:20,791 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:20,792 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019
+2021-11-29 16:49:20,791 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:20,799 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016.
+2021-11-29 16:49:20,801 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-11-29 16:49:20,801 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023
+2021-11-29 16:49:20,807 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-11-29 16:49:20,812 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017.
+2021-11-29 16:49:20,807 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - [PID]25613
+2021-11-29 16:49:20,806 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021.
+2021-11-29 16:49:20,807 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022.
+2021-11-29 16:49:20,807 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018.
+2021-11-29 16:49:20,823 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - [PID]25616
+2021-11-29 16:49:20,834 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-11-29 16:49:20,834 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:20,834 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-11-29 16:49:20,834 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-11-29 16:49:20,834 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-11-29 16:49:20,834 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:20,834 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-11-29 16:49:20,834 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-11-29 16:49:20,856 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023.
+2021-11-29 16:49:20,862 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-11-29 16:49:20,863 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019.
+2021-11-29 16:49:20,864 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-11-29 16:49:30,336 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2ca8a65c9805430ea6a8f170115b81fe/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:30,339 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2ca8a65c9805430ea6a8f170115b81fe/best_imagenet-b4_0.421.pth [0m
+2021-11-29 16:49:41,913 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/f9c385446672495fa952509bed0a5488/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:41,937 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/f9c385446672495fa952509bed0a5488/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:41,951 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/f9c385446672495fa952509bed0a5488/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:41,968 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/f9c385446672495fa952509bed0a5488/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:41,990 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/f9c385446672495fa952509bed0a5488/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,022 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/f9c385446672495fa952509bed0a5488/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,022 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/f9c385446672495fa952509bed0a5488/best_stanford-ssl-b4_0.210.pth [0m
+2021-11-29 16:49:42,022 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-11-29 16:49:42,038 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/f9c385446672495fa952509bed0a5488/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,057 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2ca8a65c9805430ea6a8f170115b81fe/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,074 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2ca8a65c9805430ea6a8f170115b81fe/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,089 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2ca8a65c9805430ea6a8f170115b81fe/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,104 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2ca8a65c9805430ea6a8f170115b81fe/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,121 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2ca8a65c9805430ea6a8f170115b81fe/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,142 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2ca8a65c9805430ea6a8f170115b81fe/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,152 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-11-29 16:49:42,168 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2ca8a65c9805430ea6a8f170115b81fe/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,188 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/8b2fdda7c1e348b89a0607c1bfd3c1e8/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-11-29 16:49:42,210 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/8b2fdda7c1e348b89a0607c1bfd3c1e8/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m

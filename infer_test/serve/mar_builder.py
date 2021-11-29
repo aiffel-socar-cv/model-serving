@@ -2,11 +2,8 @@ import os
 import zipfile
 
 
-ROOT_DIR = os.getcwd()
-MODELS_DIR = os.path.join(os.getcwd(), "models")
-TARGET_DIR = os.path.join(os.getcwd(), "model_store")
-# MODELS_DIR = "/Users/tseo/Documents/Github/viai-serving/serve/models"
-# TARGET_DIR = "/Users/tseo/Documents/Github/viai-serving/serve/model_store"
+MODELS_DIR = "/Users/tseo/Documents/Github/viai-serving/serve/models"
+TARGET_DIR = "/Users/tseo/Documents/Github/viai-serving/serve/model_store"
 DATA_TYPE_LIST = ["dent", "scratch", "spacing"]
 
 
