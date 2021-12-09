@@ -1,0 +1,4 @@
+2021-11-30 10:11:50,411 - PredictionTime.Milliseconds:1745.5|#ModelName:dent,Level:Model|#hostname:Tae-wons-MacBook-Pro.local,requestID:47d726d3-c397-40b8-a1fc-f64b83fb418c,timestamp:1638234710
+2021-11-30 10:13:35,029 - PredictionTime.Milliseconds:1832.83|#ModelName:dent,Level:Model|#hostname:Tae-wons-MacBook-Pro.local,requestID:208eaafb-d221-45a9-9c4b-b9a14bd02fa3,timestamp:1638234814
+2021-11-30 10:14:19,533 - PredictionTime.Milliseconds:1748.35|#ModelName:dent,Level:Model|#hostname:Tae-wons-MacBook-Pro.local,requestID:1b667183-5e0d-4c75-a3e0-dc343bc83c57,timestamp:1638234859
+2021-11-30 10:18:26,265 - PredictionTime.Milliseconds:1669.86|#ModelName:dent,Level:Model|#hostname:Tae-wons-MacBook-Pro.local,requestID:d80a347b-8764-4fda-af28-5fb7c86f1672,timestamp:1638235106

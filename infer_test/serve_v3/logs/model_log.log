@@ -1,0 +1,736 @@
+2021-12-06 23:35:01,893 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003
+2021-12-06 23:35:01,902 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - [PID]6477
+2021-12-06 23:35:01,903 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:01,904 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:01,909 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005
+2021-12-06 23:35:01,916 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - [PID]6479
+2021-12-06 23:35:01,917 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:01,922 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:01,926 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002
+2021-12-06 23:35:01,927 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - [PID]6481
+2021-12-06 23:35:01,930 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:01,931 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:01,945 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000
+2021-12-06 23:35:01,945 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004
+2021-12-06 23:35:01,946 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - [PID]6480
+2021-12-06 23:35:01,948 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - [PID]6478
+2021-12-06 23:35:01,949 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:01,951 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:01,955 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:01,955 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:01,975 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006
+2021-12-06 23:35:01,958 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007
+2021-12-06 23:35:01,958 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001
+2021-12-06 23:35:01,980 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - [PID]6482
+2021-12-06 23:35:01,981 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - [PID]6476
+2021-12-06 23:35:01,982 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:01,982 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:01,988 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - [PID]6483
+2021-12-06 23:35:01,983 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:01,991 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:01,991 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:01,996 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:02,168 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002.
+2021-12-06 23:35:02,171 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007.
+2021-12-06 23:35:02,170 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001.
+2021-12-06 23:35:02,168 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003.
+2021-12-06 23:35:02,168 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005.
+2021-12-06 23:35:02,168 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004.
+2021-12-06 23:35:02,168 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000.
+2021-12-06 23:35:02,171 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006.
+2021-12-06 23:35:02,263 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-06 23:35:02,265 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-06 23:35:02,265 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-06 23:35:02,264 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-06 23:35:02,264 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-06 23:35:02,263 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-06 23:35:02,263 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-06 23:35:02,263 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-06 23:35:05,903 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010
+2021-12-06 23:35:05,911 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013
+2021-12-06 23:35:05,918 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - [PID]6484
+2021-12-06 23:35:05,918 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - [PID]6487
+2021-12-06 23:35:05,924 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:05,924 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:05,924 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011
+2021-12-06 23:35:05,925 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - [PID]6486
+2021-12-06 23:35:05,926 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:05,926 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:05,930 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012
+2021-12-06 23:35:05,930 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:05,933 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:05,933 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - [PID]6485
+2021-12-06 23:35:05,949 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010.
+2021-12-06 23:35:05,947 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008
+2021-12-06 23:35:05,947 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009
+2021-12-06 23:35:05,955 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:05,987 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013.
+2021-12-06 23:35:05,987 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014
+2021-12-06 23:35:05,990 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - [PID]6490
+2021-12-06 23:35:06,019 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:06,019 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015
+2021-12-06 23:35:06,019 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:06,020 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:06,021 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - [PID]6489
+2021-12-06 23:35:06,021 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - [PID]6488
+2021-12-06 23:35:06,027 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - [PID]6491
+2021-12-06 23:35:06,030 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012.
+2021-12-06 23:35:06,029 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011.
+2021-12-06 23:35:06,027 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-06 23:35:06,027 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-06 23:35:06,032 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:06,036 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008.
+2021-12-06 23:35:06,037 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:06,038 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:06,039 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:06,040 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:06,041 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:06,125 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-06 23:35:06,149 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-06 23:35:06,157 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009.
+2021-12-06 23:35:06,158 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014.
+2021-12-06 23:35:06,170 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015.
+2021-12-06 23:35:06,261 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-06 23:35:06,262 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-06 23:35:06,261 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-06 23:35:06,306 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-06 23:35:10,256 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020
+2021-12-06 23:35:10,262 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - [PID]6502
+2021-12-06 23:35:10,273 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:10,274 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:10,290 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021
+2021-12-06 23:35:10,292 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - [PID]6504
+2021-12-06 23:35:10,292 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:10,292 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:10,302 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020.
+2021-12-06 23:35:10,308 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021.
+2021-12-06 23:35:10,307 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022
+2021-12-06 23:35:10,311 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - [PID]6505
+2021-12-06 23:35:10,311 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-06 23:35:10,312 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:10,312 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-06 23:35:10,313 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:10,318 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017
+2021-12-06 23:35:10,321 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - [PID]6501
+2021-12-06 23:35:10,321 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:10,321 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:10,332 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017.
+2021-12-06 23:35:10,336 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022.
+2021-12-06 23:35:10,344 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-06 23:35:10,345 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-06 23:35:10,357 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018
+2021-12-06 23:35:10,357 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - [PID]6500
+2021-12-06 23:35:10,357 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:10,357 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:10,366 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016
+2021-12-06 23:35:10,376 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - [PID]6503
+2021-12-06 23:35:10,377 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018.
+2021-12-06 23:35:10,377 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023
+2021-12-06 23:35:10,377 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019
+2021-12-06 23:35:10,378 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:10,378 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-06 23:35:10,379 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - [PID]6499
+2021-12-06 23:35:10,380 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - [PID]6498
+2021-12-06 23:35:10,379 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:10,411 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:10,411 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-06 23:35:10,410 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016.
+2021-12-06 23:35:10,436 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:10,437 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-06 23:35:10,474 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-06 23:35:10,516 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023.
+2021-12-06 23:35:10,516 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019.
+2021-12-06 23:35:10,534 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-06 23:35:10,534 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-06 23:35:14,604 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-06 23:35:14,623 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/best_imagenet-b4_0.421.pth [0m
+2021-12-06 23:35:14,625 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.6552,  1.6731,  1.6851,  ...,  1.8931,  1.9025,  2.0196],
+2021-12-06 23:35:14,626 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.6131,  1.7213,  1.7166,  ...,  1.6768,  1.7528,  1.9021],
+2021-12-06 23:35:14,626 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.5995,  1.7125,  1.7414,  ...,  1.6393,  1.6204,  1.8802],
+2021-12-06 23:35:14,626 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:14,626 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.6047,  1.7130,  1.7236,  ...,  1.6158,  1.6214,  1.8601],
+2021-12-06 23:35:14,626 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.5846,  1.6850,  1.7091,  ...,  1.6209,  1.6783,  1.9041],
+2021-12-06 23:35:14,626 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.6702,  1.6210,  1.6351,  ...,  1.8597,  1.9167,  2.0103]],
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -         [[-1.5299, -1.5149, -1.5231,  ..., -1.4420, -1.4913, -1.5750],
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.5673, -1.5838, -1.5955,  ..., -1.1641, -1.2701, -1.4521],
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.5758, -1.6248, -1.5680,  ..., -0.9862, -1.0745, -1.3686],
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.5786, -1.5782, -1.6073,  ..., -0.8611, -0.9323, -1.2550],
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.5371, -1.5500, -1.5197,  ..., -1.0131, -1.1192, -1.3816],
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.5424, -1.4248, -1.4306,  ..., -1.3582, -1.4395, -1.5759]]])
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - tensor([[[0.9603, 0.9604, 0.9611,  ..., 0.9656, 0.9675, 0.9733],
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9601, 0.9646, 0.9648,  ..., 0.9448, 0.9536, 0.9662],
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9599, 0.9657, 0.9648,  ..., 0.9325, 0.9367, 0.9626],
+2021-12-06 23:35:14,628 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:14,634 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9602, 0.9641, 0.9655,  ..., 0.9225, 0.9278, 0.9575],
+2021-12-06 23:35:14,635 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9578, 0.9621, 0.9619,  ..., 0.9330, 0.9425, 0.9639],
+2021-12-06 23:35:14,635 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9613, 0.9546, 0.9555,  ..., 0.9615, 0.9663, 0.9730]],
+2021-12-06 23:35:14,635 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:35:14,635 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -         [[0.0397, 0.0396, 0.0389,  ..., 0.0344, 0.0325, 0.0267],
+2021-12-06 23:35:14,639 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0399, 0.0354, 0.0352,  ..., 0.0552, 0.0464, 0.0338],
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0401, 0.0343, 0.0352,  ..., 0.0675, 0.0633, 0.0374],
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0398, 0.0359, 0.0345,  ..., 0.0775, 0.0722, 0.0425],
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0422, 0.0379, 0.0381,  ..., 0.0670, 0.0575, 0.0361],
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0387, 0.0454, 0.0445,  ..., 0.0385, 0.0337, 0.0270]]])
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 0.6847025
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 0.021283299
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 0.6847025
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 8569
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 5076.64697265625
+2021-12-06 23:35:14,640 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 8569
+2021-12-06 23:35:24,841 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-06 23:35:24,860 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/best_imagenet-b4_0.421.pth [0m
+2021-12-06 23:35:24,860 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.6552,  1.6731,  1.6851,  ...,  1.8931,  1.9025,  2.0196],
+2021-12-06 23:35:24,860 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.6131,  1.7213,  1.7166,  ...,  1.6768,  1.7528,  1.9021],
+2021-12-06 23:35:24,860 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.5995,  1.7125,  1.7414,  ...,  1.6393,  1.6204,  1.8802],
+2021-12-06 23:35:24,860 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:24,860 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.6047,  1.7130,  1.7236,  ...,  1.6158,  1.6214,  1.8601],
+2021-12-06 23:35:24,860 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.5846,  1.6850,  1.7091,  ...,  1.6209,  1.6783,  1.9041],
+2021-12-06 23:35:24,860 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.6702,  1.6210,  1.6351,  ...,  1.8597,  1.9167,  2.0103]],
+2021-12-06 23:35:24,865 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:35:24,881 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -         [[-1.5299, -1.5149, -1.5231,  ..., -1.4420, -1.4913, -1.5750],
+2021-12-06 23:35:24,884 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.5673, -1.5838, -1.5955,  ..., -1.1641, -1.2701, -1.4521],
+2021-12-06 23:35:24,888 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.5758, -1.6248, -1.5680,  ..., -0.9862, -1.0745, -1.3686],
+2021-12-06 23:35:24,893 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:24,894 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.5786, -1.5782, -1.6073,  ..., -0.8611, -0.9323, -1.2550],
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.5371, -1.5500, -1.5197,  ..., -1.0131, -1.1192, -1.3816],
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.5424, -1.4248, -1.4306,  ..., -1.3582, -1.4395, -1.5759]]])
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - tensor([[[0.9603, 0.9604, 0.9611,  ..., 0.9656, 0.9675, 0.9733],
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9601, 0.9646, 0.9648,  ..., 0.9448, 0.9536, 0.9662],
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9599, 0.9657, 0.9648,  ..., 0.9325, 0.9367, 0.9626],
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9602, 0.9641, 0.9655,  ..., 0.9225, 0.9278, 0.9575],
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9578, 0.9621, 0.9619,  ..., 0.9330, 0.9425, 0.9639],
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9613, 0.9546, 0.9555,  ..., 0.9615, 0.9663, 0.9730]],
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:35:24,895 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -         [[0.0397, 0.0396, 0.0389,  ..., 0.0344, 0.0325, 0.0267],
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0399, 0.0354, 0.0352,  ..., 0.0552, 0.0464, 0.0338],
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0401, 0.0343, 0.0352,  ..., 0.0675, 0.0633, 0.0374],
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0398, 0.0359, 0.0345,  ..., 0.0775, 0.0722, 0.0425],
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0422, 0.0379, 0.0381,  ..., 0.0670, 0.0575, 0.0361],
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0387, 0.0454, 0.0445,  ..., 0.0385, 0.0337, 0.0270]]])
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.6847025
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.021283299
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.6847025
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 8569
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:35:24,897 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 5076.64697265625
+2021-12-06 23:35:24,898 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 8569
+2021-12-06 23:35:57,797 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/best_imagenet-b4_0.421.pth [0m
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.6641,  1.6811,  1.6916,  ...,  1.6884,  1.6766,  1.7187],
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.6202,  1.7304,  1.7286,  ...,  1.6326,  1.6671,  1.6582],
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.6147,  1.7284,  1.7631,  ...,  1.5771,  1.6621,  1.6683],
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.6412,  1.7452,  1.7689,  ...,  1.7434,  1.7621,  1.9084],
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.6270,  1.7220,  1.7390,  ...,  1.7487,  1.7201,  1.8935],
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.7756,  1.6760,  1.6939,  ...,  1.9337,  1.9432,  2.0110]],
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -         [[-1.5419, -1.5104, -1.5246,  ..., -1.6240, -1.5493, -1.5185],
+2021-12-06 23:35:57,800 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.5659, -1.6005, -1.6230,  ..., -1.6298, -1.5958, -1.5098],
+2021-12-06 23:35:57,801 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.5840, -1.6581, -1.6232,  ..., -1.6820, -1.6379, -1.5574],
+2021-12-06 23:35:57,801 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:57,801 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.6021, -1.6590, -1.7155,  ..., -1.4863, -1.5503, -1.6196],
+2021-12-06 23:35:57,801 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.5797, -1.6288, -1.6375,  ..., -1.5528, -1.5470, -1.6328],
+2021-12-06 23:35:57,801 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.6096, -1.5067, -1.5446,  ..., -1.6509, -1.6939, -1.7088]]])
+2021-12-06 23:35:57,801 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - tensor([[[0.9611, 0.9605, 0.9614,  ..., 0.9649, 0.9618, 0.9622],
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9603, 0.9655, 0.9662,  ..., 0.9631, 0.9631, 0.9596],
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9608, 0.9673, 0.9673,  ..., 0.9630, 0.9644, 0.9618],
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9624, 0.9678, 0.9702,  ..., 0.9619, 0.9649, 0.9715],
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9611, 0.9661, 0.9670,  ..., 0.9645, 0.9633, 0.9714],
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9672, 0.9602, 0.9623,  ..., 0.9730, 0.9743, 0.9763]],
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:35:57,818 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -         [[0.0389, 0.0395, 0.0386,  ..., 0.0351, 0.0382, 0.0378],
+2021-12-06 23:35:57,825 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0397, 0.0345, 0.0338,  ..., 0.0369, 0.0369, 0.0404],
+2021-12-06 23:35:57,836 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0392, 0.0327, 0.0327,  ..., 0.0370, 0.0356, 0.0382],
+2021-12-06 23:35:57,839 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:35:57,839 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0376, 0.0322, 0.0298,  ..., 0.0381, 0.0351, 0.0285],
+2021-12-06 23:35:57,839 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0389, 0.0339, 0.0330,  ..., 0.0355, 0.0367, 0.0286],
+2021-12-06 23:35:57,839 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0328, 0.0398, 0.0377,  ..., 0.0270, 0.0257, 0.0237]]])
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.535118
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.01709119
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.535118
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 575
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 298.3327331542969
+2021-12-06 23:35:57,840 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 575
+2021-12-06 23:36:08,097 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-06 23:36:08,101 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/best_imagenet-b4_0.421.pth [0m
+2021-12-06 23:36:08,101 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.7893,  1.7390,  1.7073,  ...,  1.7443,  1.7924,  1.9655],
+2021-12-06 23:36:08,113 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.6909,  1.7170,  1.7311,  ...,  1.9721,  1.8013,  1.7570],
+2021-12-06 23:36:08,113 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.6599,  1.7163,  1.7428,  ...,  2.1514,  1.9831,  1.6698],
+2021-12-06 23:36:08,113 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:36:08,113 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.8048,  1.7663,  2.0026,  ...,  2.1623,  1.9918,  1.6529],
+2021-12-06 23:36:08,113 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.8171,  1.5771,  1.7827,  ...,  1.9727,  1.7943,  1.7491],
+2021-12-06 23:36:08,113 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.9858,  1.7799,  1.7008,  ...,  1.6204,  1.7345,  1.9248]],
+2021-12-06 23:36:08,114 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:36:08,114 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -         [[-1.5898, -1.4875, -1.4789,  ..., -0.9863, -1.0936, -1.3187],
+2021-12-06 23:36:08,114 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.5162, -1.5552, -1.5791,  ..., -1.0264, -0.8888, -1.0045],
+2021-12-06 23:36:08,114 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.5015, -1.6049, -1.5575,  ..., -1.0660, -0.9778, -0.8402],
+2021-12-06 23:36:08,114 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:36:08,114 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.0447, -0.8221, -0.9755,  ..., -1.0821, -0.9994, -0.8640],
+2021-12-06 23:36:08,114 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.1710, -0.7709, -0.9224,  ..., -1.0518, -0.9440, -1.0486],
+2021-12-06 23:36:08,114 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.4360, -1.1679, -1.0303,  ..., -0.9475, -1.0953, -1.3978]]])
+2021-12-06 23:36:08,118 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:36:08,119 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:36:08,119 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - tensor([[[0.9670, 0.9618, 0.9603,  ..., 0.9388, 0.9471, 0.9639],
+2021-12-06 23:36:08,119 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9611, 0.9635, 0.9648,  ..., 0.9525, 0.9364, 0.9406],
+2021-12-06 23:36:08,119 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9594, 0.9651, 0.9644,  ..., 0.9615, 0.9508, 0.9248],
+2021-12-06 23:36:08,119 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:36:08,119 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9453, 0.9301, 0.9516,  ..., 0.9625, 0.9522, 0.9253],
+2021-12-06 23:36:08,129 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9520, 0.9128, 0.9373,  ..., 0.9537, 0.9392, 0.9426],
+2021-12-06 23:36:08,130 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9684, 0.9502, 0.9388,  ..., 0.9288, 0.9443, 0.9652]],
+2021-12-06 23:36:08,130 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:36:08,130 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -         [[0.0330, 0.0382, 0.0397,  ..., 0.0612, 0.0529, 0.0361],
+2021-12-06 23:36:08,131 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0389, 0.0365, 0.0352,  ..., 0.0475, 0.0636, 0.0594],
+2021-12-06 23:36:08,131 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0406, 0.0349, 0.0356,  ..., 0.0385, 0.0492, 0.0752],
+2021-12-06 23:36:08,131 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:36:08,131 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0547, 0.0699, 0.0484,  ..., 0.0375, 0.0478, 0.0747],
+2021-12-06 23:36:08,131 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0480, 0.0872, 0.0627,  ..., 0.0463, 0.0608, 0.0574],
+2021-12-06 23:36:08,131 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0316, 0.0498, 0.0612,  ..., 0.0712, 0.0557, 0.0348]]])
+2021-12-06 23:36:08,131 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:36:08,131 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 8922.0283203125
+2021-12-06 23:36:08,131 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 1
+2021-12-06 23:37:40,968 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-06 23:37:40,969 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/best_imagenet-b4_0.421.pth [0m
+2021-12-06 23:37:40,969 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.6198,  1.6244,  1.6252,  ...,  1.6584,  1.6405,  1.5927],
+2021-12-06 23:37:40,969 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.5686,  1.6478,  1.6362,  ...,  1.7236,  1.6719,  1.6393],
+2021-12-06 23:37:40,969 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.5389,  1.6302,  1.6308,  ...,  1.7345,  1.6984,  1.6576],
+2021-12-06 23:37:40,969 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:37:40,969 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.6765,  1.7206,  1.7513,  ...,  1.8827,  1.6663,  1.7767],
+2021-12-06 23:37:40,969 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.6700,  1.7060,  1.7267,  ...,  1.6516,  1.5763,  1.8588],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.8635,  1.7448,  1.7188,  ...,  1.7755,  1.8596,  1.9883]],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -         [[-1.4905, -1.4726, -1.4427,  ..., -1.5484, -1.4856, -1.3496],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.5246, -1.4479, -1.3889,  ..., -1.6044, -1.5214, -1.3855],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.5200, -1.4191, -1.2952,  ..., -1.6293, -1.5359, -1.4057],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.5545, -1.5873, -1.6198,  ..., -1.1048, -0.9799, -1.1794],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.5490, -1.5887, -1.5895,  ..., -1.0108, -1.0207, -1.3386],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.6343, -1.5289, -1.5507,  ..., -1.2884, -1.3934, -1.5592]]])
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - tensor([[[0.9573, 0.9568, 0.9556,  ..., 0.9611, 0.9580, 0.9499],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9566, 0.9567, 0.9537,  ..., 0.9654, 0.9606, 0.9537],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9552, 0.9548, 0.9491,  ..., 0.9666, 0.9621, 0.9554],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9620, 0.9647, 0.9668,  ..., 0.9520, 0.9338, 0.9505],
+2021-12-06 23:37:40,970 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9615, 0.9642, 0.9650,  ..., 0.9348, 0.9307, 0.9607],
+2021-12-06 23:37:40,971 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9706, 0.9635, 0.9634,  ..., 0.9554, 0.9628, 0.9720]],
+2021-12-06 23:37:40,971 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:37:40,971 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -         [[0.0427, 0.0432, 0.0444,  ..., 0.0389, 0.0420, 0.0501],
+2021-12-06 23:37:40,971 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0434, 0.0433, 0.0463,  ..., 0.0346, 0.0394, 0.0463],
+2021-12-06 23:37:40,997 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0448, 0.0452, 0.0509,  ..., 0.0334, 0.0379, 0.0446],
+2021-12-06 23:37:41,003 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:37:41,004 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0380, 0.0353, 0.0332,  ..., 0.0480, 0.0662, 0.0495],
+2021-12-06 23:37:41,005 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0385, 0.0358, 0.0350,  ..., 0.0652, 0.0693, 0.0393],
+2021-12-06 23:37:41,005 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0294, 0.0365, 0.0366,  ..., 0.0446, 0.0372, 0.0280]]])
+2021-12-06 23:37:41,014 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 0.6063969
+2021-12-06 23:37:41,015 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 0.016850475
+2021-12-06 23:37:41,015 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:37:41,015 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:37:41,015 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 0.6063969
+2021-12-06 23:37:41,015 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:37:41,015 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 8472
+2021-12-06 23:37:41,015 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:37:41,015 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 4672.66455078125
+2021-12-06 23:37:41,015 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 8472
+2021-12-06 23:37:50,854 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/best_imagenet-b4_0.421.pth [0m
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - tensor([[[ 2.0484,  1.9393,  1.8687,  ...,  1.6599,  1.6409,  1.5976],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.9371,  1.7011,  1.6199,  ...,  1.7060,  1.6718,  1.6395],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.8623,  1.6293,  1.8057,  ...,  1.7023,  1.6839,  1.6570],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.6232,  1.7277,  1.7562,  ...,  2.1252,  1.9610,  1.6594],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.6178,  1.7165,  1.7492,  ...,  1.9347,  1.7494,  1.7655],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.7656,  1.6655,  1.6778,  ...,  1.6399,  1.7571,  1.9361]],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -         [[-1.5990, -1.3848, -1.2468,  ..., -1.5008, -1.4553, -1.3350],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.4042, -1.0379, -0.8317,  ..., -1.5147, -1.4742, -1.3548],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.2562, -0.8103, -0.9090,  ..., -1.5085, -1.4568, -1.3498],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.5536, -1.6149, -1.6121,  ..., -1.0729, -0.9861, -0.8864],
+2021-12-06 23:37:50,869 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.5476, -1.6116, -1.5924,  ..., -1.0405, -0.9304, -1.0850],
+2021-12-06 23:37:50,885 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.5761, -1.4835, -1.4997,  ..., -0.9930, -1.1368, -1.4213]]])
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - tensor([[[0.9746, 0.9652, 0.9575,  ..., 0.9593, 0.9567, 0.9494],
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9658, 0.9393, 0.9207,  ..., 0.9616, 0.9588, 0.9523],
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9577, 0.9198, 0.9379,  ..., 0.9612, 0.9585, 0.9529],
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9600, 0.9659, 0.9667,  ..., 0.9608, 0.9501, 0.9273],
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9595, 0.9654, 0.9658,  ..., 0.9514, 0.9358, 0.9453],
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9658, 0.9589, 0.9600,  ..., 0.9330, 0.9475, 0.9663]],
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:37:50,886 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -         [[0.0254, 0.0348, 0.0425,  ..., 0.0407, 0.0433, 0.0506],
+2021-12-06 23:37:50,894 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0342, 0.0607, 0.0793,  ..., 0.0384, 0.0412, 0.0477],
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0424, 0.0802, 0.0621,  ..., 0.0388, 0.0415, 0.0471],
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0400, 0.0341, 0.0333,  ..., 0.0392, 0.0499, 0.0727],
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0405, 0.0346, 0.0342,  ..., 0.0486, 0.0642, 0.0547],
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0342, 0.0411, 0.0400,  ..., 0.0670, 0.0525, 0.0337]]])
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.678883
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.021146817
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.678883
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 20430
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 12059.6240234375
+2021-12-06 23:37:50,895 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 20430
+2021-12-06 23:38:05,015 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-06 23:38:05,017 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/best_imagenet-b4_0.421.pth [0m
+2021-12-06 23:38:05,017 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.6552,  1.6731,  1.6851,  ...,  1.8931,  1.9025,  2.0196],
+2021-12-06 23:38:05,017 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [ 1.6131,  1.7213,  1.7166,  ...,  1.6768,  1.7528,  1.9021],
+2021-12-06 23:38:05,017 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [ 1.5995,  1.7125,  1.7414,  ...,  1.6393,  1.6204,  1.8802],
+2021-12-06 23:38:05,017 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:05,017 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [ 1.6047,  1.7130,  1.7236,  ...,  1.6158,  1.6214,  1.8601],
+2021-12-06 23:38:05,017 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [ 1.5846,  1.6850,  1.7091,  ...,  1.6209,  1.6783,  1.9041],
+2021-12-06 23:38:05,017 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [ 1.6702,  1.6210,  1.6351,  ...,  1.8597,  1.9167,  2.0103]],
+2021-12-06 23:38:05,029 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:05,030 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -         [[-1.5299, -1.5149, -1.5231,  ..., -1.4420, -1.4913, -1.5750],
+2021-12-06 23:38:05,030 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [-1.5673, -1.5838, -1.5955,  ..., -1.1641, -1.2701, -1.4521],
+2021-12-06 23:38:05,030 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [-1.5758, -1.6248, -1.5680,  ..., -0.9862, -1.0745, -1.3686],
+2021-12-06 23:38:05,030 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:05,030 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [-1.5786, -1.5782, -1.6073,  ..., -0.8611, -0.9323, -1.2550],
+2021-12-06 23:38:05,030 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [-1.5371, -1.5500, -1.5197,  ..., -1.0131, -1.1192, -1.3816],
+2021-12-06 23:38:05,030 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [-1.5424, -1.4248, -1.4306,  ..., -1.3582, -1.4395, -1.5759]]])
+2021-12-06 23:38:05,030 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:38:05,030 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:38:05,034 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - tensor([[[0.9603, 0.9604, 0.9611,  ..., 0.9656, 0.9675, 0.9733],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.9601, 0.9646, 0.9648,  ..., 0.9448, 0.9536, 0.9662],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.9599, 0.9657, 0.9648,  ..., 0.9325, 0.9367, 0.9626],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.9602, 0.9641, 0.9655,  ..., 0.9225, 0.9278, 0.9575],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.9578, 0.9621, 0.9619,  ..., 0.9330, 0.9425, 0.9639],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.9613, 0.9546, 0.9555,  ..., 0.9615, 0.9663, 0.9730]],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -         [[0.0397, 0.0396, 0.0389,  ..., 0.0344, 0.0325, 0.0267],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.0399, 0.0354, 0.0352,  ..., 0.0552, 0.0464, 0.0338],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.0401, 0.0343, 0.0352,  ..., 0.0675, 0.0633, 0.0374],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.0398, 0.0359, 0.0345,  ..., 0.0775, 0.0722, 0.0425],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.0422, 0.0379, 0.0381,  ..., 0.0670, 0.0575, 0.0361],
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG -          [0.0387, 0.0454, 0.0445,  ..., 0.0385, 0.0337, 0.0270]]])
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 0.6847025
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 0.021283299
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:38:05,035 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 0.6847025
+2021-12-06 23:38:05,036 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:38:05,036 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 8569
+2021-12-06 23:38:05,036 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:38:05,036 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 5076.64697265625
+2021-12-06 23:38:05,036 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - 8569
+2021-12-06 23:38:13,378 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-06 23:38:13,379 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/1db4ffd11c5a4f5b8a6f6a46b6bc2677/best_imagenet-b4_0.421.pth [0m
+2021-12-06 23:38:13,379 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.6641,  1.6811,  1.6916,  ...,  1.6884,  1.6766,  1.7187],
+2021-12-06 23:38:13,379 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [ 1.6202,  1.7304,  1.7286,  ...,  1.6326,  1.6671,  1.6582],
+2021-12-06 23:38:13,379 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [ 1.6147,  1.7284,  1.7631,  ...,  1.5771,  1.6621,  1.6683],
+2021-12-06 23:38:13,379 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:13,379 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [ 1.6412,  1.7452,  1.7689,  ...,  1.7434,  1.7621,  1.9084],
+2021-12-06 23:38:13,379 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [ 1.6270,  1.7220,  1.7390,  ...,  1.7487,  1.7201,  1.8935],
+2021-12-06 23:38:13,380 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [ 1.7756,  1.6760,  1.6939,  ...,  1.9337,  1.9432,  2.0110]],
+2021-12-06 23:38:13,380 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:13,380 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -         [[-1.5419, -1.5104, -1.5246,  ..., -1.6240, -1.5493, -1.5185],
+2021-12-06 23:38:13,380 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [-1.5659, -1.6005, -1.6230,  ..., -1.6298, -1.5958, -1.5098],
+2021-12-06 23:38:13,380 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [-1.5840, -1.6581, -1.6232,  ..., -1.6820, -1.6379, -1.5574],
+2021-12-06 23:38:13,380 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:13,380 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [-1.6021, -1.6590, -1.7155,  ..., -1.4863, -1.5503, -1.6196],
+2021-12-06 23:38:13,381 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [-1.5797, -1.6288, -1.6375,  ..., -1.5528, -1.5470, -1.6328],
+2021-12-06 23:38:13,381 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [-1.6096, -1.5067, -1.5446,  ..., -1.6509, -1.6939, -1.7088]]])
+2021-12-06 23:38:13,381 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:38:13,381 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:38:13,381 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - tensor([[[0.9611, 0.9605, 0.9614,  ..., 0.9649, 0.9618, 0.9622],
+2021-12-06 23:38:13,381 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.9603, 0.9655, 0.9662,  ..., 0.9631, 0.9631, 0.9596],
+2021-12-06 23:38:13,381 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.9608, 0.9673, 0.9673,  ..., 0.9630, 0.9644, 0.9618],
+2021-12-06 23:38:13,406 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:13,406 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.9624, 0.9678, 0.9702,  ..., 0.9619, 0.9649, 0.9715],
+2021-12-06 23:38:13,407 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.9611, 0.9661, 0.9670,  ..., 0.9645, 0.9633, 0.9714],
+2021-12-06 23:38:13,407 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.9672, 0.9602, 0.9623,  ..., 0.9730, 0.9743, 0.9763]],
+2021-12-06 23:38:13,407 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:13,407 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -         [[0.0389, 0.0395, 0.0386,  ..., 0.0351, 0.0382, 0.0378],
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.0397, 0.0345, 0.0338,  ..., 0.0369, 0.0369, 0.0404],
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.0392, 0.0327, 0.0327,  ..., 0.0370, 0.0356, 0.0382],
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.0376, 0.0322, 0.0298,  ..., 0.0381, 0.0351, 0.0285],
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.0389, 0.0339, 0.0330,  ..., 0.0355, 0.0367, 0.0286],
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG -          [0.0328, 0.0398, 0.0377,  ..., 0.0270, 0.0257, 0.0237]]])
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 0.535118
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 0.01709119
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 0.535118
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 575
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 298.3327331542969
+2021-12-06 23:38:13,408 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - 575
+2021-12-06 23:38:22,881 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.7893,  1.7390,  1.7073,  ...,  1.7443,  1.7924,  1.9655],
+2021-12-06 23:38:22,884 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.6909,  1.7170,  1.7311,  ...,  1.9721,  1.8013,  1.7570],
+2021-12-06 23:38:22,884 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.6599,  1.7163,  1.7428,  ...,  2.1514,  1.9831,  1.6698],
+2021-12-06 23:38:22,884 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:22,884 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.8048,  1.7663,  2.0026,  ...,  2.1623,  1.9918,  1.6529],
+2021-12-06 23:38:22,884 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.8171,  1.5771,  1.7827,  ...,  1.9727,  1.7943,  1.7491],
+2021-12-06 23:38:22,885 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [ 1.9858,  1.7799,  1.7008,  ...,  1.6204,  1.7345,  1.9248]],
+2021-12-06 23:38:22,885 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:22,885 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -         [[-1.5898, -1.4875, -1.4789,  ..., -0.9863, -1.0936, -1.3187],
+2021-12-06 23:38:22,885 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.5162, -1.5552, -1.5791,  ..., -1.0264, -0.8888, -1.0045],
+2021-12-06 23:38:22,885 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.5015, -1.6049, -1.5575,  ..., -1.0660, -0.9778, -0.8402],
+2021-12-06 23:38:22,885 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:22,885 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.0447, -0.8221, -0.9755,  ..., -1.0821, -0.9994, -0.8640],
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.1710, -0.7709, -0.9224,  ..., -1.0518, -0.9440, -1.0486],
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [-1.4360, -1.1679, -1.0303,  ..., -0.9475, -1.0953, -1.3978]]])
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - tensor([[[0.9670, 0.9618, 0.9603,  ..., 0.9388, 0.9471, 0.9639],
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9611, 0.9635, 0.9648,  ..., 0.9525, 0.9364, 0.9406],
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9594, 0.9651, 0.9644,  ..., 0.9615, 0.9508, 0.9248],
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9453, 0.9301, 0.9516,  ..., 0.9625, 0.9522, 0.9253],
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9520, 0.9128, 0.9373,  ..., 0.9537, 0.9392, 0.9426],
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.9684, 0.9502, 0.9388,  ..., 0.9288, 0.9443, 0.9652]],
+2021-12-06 23:38:22,902 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:22,903 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -         [[0.0330, 0.0382, 0.0397,  ..., 0.0612, 0.0529, 0.0361],
+2021-12-06 23:38:22,903 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0389, 0.0365, 0.0352,  ..., 0.0475, 0.0636, 0.0594],
+2021-12-06 23:38:22,904 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0406, 0.0349, 0.0356,  ..., 0.0385, 0.0492, 0.0752],
+2021-12-06 23:38:22,904 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:22,905 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0547, 0.0699, 0.0484,  ..., 0.0375, 0.0478, 0.0747],
+2021-12-06 23:38:22,905 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0480, 0.0872, 0.0627,  ..., 0.0463, 0.0608, 0.0574],
+2021-12-06 23:38:22,905 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG -          [0.0316, 0.0498, 0.0612,  ..., 0.0712, 0.0557, 0.0348]]])
+2021-12-06 23:38:22,905 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:38:22,905 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 8922.0283203125
+2021-12-06 23:38:22,905 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - 1
+2021-12-06 23:38:31,975 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.6198,  1.6244,  1.6252,  ...,  1.6584,  1.6405,  1.5927],
+2021-12-06 23:38:31,978 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.5686,  1.6478,  1.6362,  ...,  1.7236,  1.6719,  1.6393],
+2021-12-06 23:38:31,978 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.5389,  1.6302,  1.6308,  ...,  1.7345,  1.6984,  1.6576],
+2021-12-06 23:38:31,978 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:31,978 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.6765,  1.7206,  1.7513,  ...,  1.8827,  1.6663,  1.7767],
+2021-12-06 23:38:31,978 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.6700,  1.7060,  1.7267,  ...,  1.6516,  1.5763,  1.8588],
+2021-12-06 23:38:31,986 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [ 1.8635,  1.7448,  1.7188,  ...,  1.7755,  1.8596,  1.9883]],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -         [[-1.4905, -1.4726, -1.4427,  ..., -1.5484, -1.4856, -1.3496],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.5246, -1.4479, -1.3889,  ..., -1.6044, -1.5214, -1.3855],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.5200, -1.4191, -1.2952,  ..., -1.6293, -1.5359, -1.4057],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.5545, -1.5873, -1.6198,  ..., -1.1048, -0.9799, -1.1794],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.5490, -1.5887, -1.5895,  ..., -1.0108, -1.0207, -1.3386],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [-1.6343, -1.5289, -1.5507,  ..., -1.2884, -1.3934, -1.5592]]])
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - tensor([[[0.9573, 0.9568, 0.9556,  ..., 0.9611, 0.9580, 0.9499],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9566, 0.9567, 0.9537,  ..., 0.9654, 0.9606, 0.9537],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9552, 0.9548, 0.9491,  ..., 0.9666, 0.9621, 0.9554],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9620, 0.9647, 0.9668,  ..., 0.9520, 0.9338, 0.9505],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9615, 0.9642, 0.9650,  ..., 0.9348, 0.9307, 0.9607],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.9706, 0.9635, 0.9634,  ..., 0.9554, 0.9628, 0.9720]],
+2021-12-06 23:38:31,993 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -         [[0.0427, 0.0432, 0.0444,  ..., 0.0389, 0.0420, 0.0501],
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0434, 0.0433, 0.0463,  ..., 0.0346, 0.0394, 0.0463],
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0448, 0.0452, 0.0509,  ..., 0.0334, 0.0379, 0.0446],
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0380, 0.0353, 0.0332,  ..., 0.0480, 0.0662, 0.0495],
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0385, 0.0358, 0.0350,  ..., 0.0652, 0.0693, 0.0393],
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG -          [0.0294, 0.0365, 0.0366,  ..., 0.0446, 0.0372, 0.0280]]])
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.6063969
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.016850475
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.6063969
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 8472
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 4672.66455078125
+2021-12-06 23:38:31,994 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - 8472
+2021-12-06 23:38:38,958 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - tensor([[[ 2.0484,  1.9393,  1.8687,  ...,  1.6599,  1.6409,  1.5976],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.9371,  1.7011,  1.6199,  ...,  1.7060,  1.6718,  1.6395],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.8623,  1.6293,  1.8057,  ...,  1.7023,  1.6839,  1.6570],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.6232,  1.7277,  1.7562,  ...,  2.1252,  1.9610,  1.6594],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.6178,  1.7165,  1.7492,  ...,  1.9347,  1.7494,  1.7655],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [ 1.7656,  1.6655,  1.6778,  ...,  1.6399,  1.7571,  1.9361]],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -         [[-1.5990, -1.3848, -1.2468,  ..., -1.5008, -1.4553, -1.3350],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.4042, -1.0379, -0.8317,  ..., -1.5147, -1.4742, -1.3548],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.2562, -0.8103, -0.9090,  ..., -1.5085, -1.4568, -1.3498],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.5536, -1.6149, -1.6121,  ..., -1.0729, -0.9861, -0.8864],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.5476, -1.6116, -1.5924,  ..., -1.0405, -0.9304, -1.0850],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [-1.5761, -1.4835, -1.4997,  ..., -0.9930, -1.1368, -1.4213]]])
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - tensor([[[0.9746, 0.9652, 0.9575,  ..., 0.9593, 0.9567, 0.9494],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9658, 0.9393, 0.9207,  ..., 0.9616, 0.9588, 0.9523],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9577, 0.9198, 0.9379,  ..., 0.9612, 0.9585, 0.9529],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9600, 0.9659, 0.9667,  ..., 0.9608, 0.9501, 0.9273],
+2021-12-06 23:38:38,959 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9595, 0.9654, 0.9658,  ..., 0.9514, 0.9358, 0.9453],
+2021-12-06 23:38:38,960 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.9658, 0.9589, 0.9600,  ..., 0.9330, 0.9475, 0.9663]],
+2021-12-06 23:38:38,960 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:38:38,960 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -         [[0.0254, 0.0348, 0.0425,  ..., 0.0407, 0.0433, 0.0506],
+2021-12-06 23:38:38,960 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0342, 0.0607, 0.0793,  ..., 0.0384, 0.0412, 0.0477],
+2021-12-06 23:38:38,960 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0424, 0.0802, 0.0621,  ..., 0.0388, 0.0415, 0.0471],
+2021-12-06 23:38:38,960 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:38:38,960 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0400, 0.0341, 0.0333,  ..., 0.0392, 0.0499, 0.0727],
+2021-12-06 23:38:38,977 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0405, 0.0346, 0.0342,  ..., 0.0486, 0.0642, 0.0547],
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG -          [0.0342, 0.0411, 0.0400,  ..., 0.0670, 0.0525, 0.0337]]])
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.678883
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.021146817
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.678883
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 20430
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 12059.6240234375
+2021-12-06 23:38:38,980 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - 20430
+2021-12-06 23:39:13,207 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.6198,  1.6244,  1.6252,  ...,  1.6584,  1.6405,  1.5927],
+2021-12-06 23:39:13,208 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.5686,  1.6478,  1.6362,  ...,  1.7236,  1.6719,  1.6393],
+2021-12-06 23:39:13,208 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.5389,  1.6302,  1.6308,  ...,  1.7345,  1.6984,  1.6576],
+2021-12-06 23:39:13,208 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:39:13,208 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.6765,  1.7206,  1.7513,  ...,  1.8827,  1.6663,  1.7767],
+2021-12-06 23:39:13,208 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.6700,  1.7060,  1.7267,  ...,  1.6516,  1.5763,  1.8588],
+2021-12-06 23:39:13,208 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [ 1.8635,  1.7448,  1.7188,  ...,  1.7755,  1.8596,  1.9883]],
+2021-12-06 23:39:13,208 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:39:13,209 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -         [[-1.4905, -1.4726, -1.4427,  ..., -1.5484, -1.4856, -1.3496],
+2021-12-06 23:39:13,209 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.5246, -1.4479, -1.3889,  ..., -1.6044, -1.5214, -1.3855],
+2021-12-06 23:39:13,228 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.5200, -1.4191, -1.2952,  ..., -1.6293, -1.5359, -1.4057],
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.5545, -1.5873, -1.6198,  ..., -1.1048, -0.9799, -1.1794],
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.5490, -1.5887, -1.5895,  ..., -1.0108, -1.0207, -1.3386],
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [-1.6343, -1.5289, -1.5507,  ..., -1.2884, -1.3934, -1.5592]]])
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - tensor([[[0.9573, 0.9568, 0.9556,  ..., 0.9611, 0.9580, 0.9499],
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9566, 0.9567, 0.9537,  ..., 0.9654, 0.9606, 0.9537],
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9552, 0.9548, 0.9491,  ..., 0.9666, 0.9621, 0.9554],
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9620, 0.9647, 0.9668,  ..., 0.9520, 0.9338, 0.9505],
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9615, 0.9642, 0.9650,  ..., 0.9348, 0.9307, 0.9607],
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.9706, 0.9635, 0.9634,  ..., 0.9554, 0.9628, 0.9720]],
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:39:13,230 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -         [[0.0427, 0.0432, 0.0444,  ..., 0.0389, 0.0420, 0.0501],
+2021-12-06 23:39:13,233 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0434, 0.0433, 0.0463,  ..., 0.0346, 0.0394, 0.0463],
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0448, 0.0452, 0.0509,  ..., 0.0334, 0.0379, 0.0446],
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0380, 0.0353, 0.0332,  ..., 0.0480, 0.0662, 0.0495],
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0385, 0.0358, 0.0350,  ..., 0.0652, 0.0693, 0.0393],
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG -          [0.0294, 0.0365, 0.0366,  ..., 0.0446, 0.0372, 0.0280]]])
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 0.6063969
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 0.016850475
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 0.6063969
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 8472
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 4672.66455078125
+2021-12-06 23:39:13,234 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - 8472
+2021-12-06 23:39:25,763 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.7893,  1.7390,  1.7073,  ...,  1.7443,  1.7924,  1.9655],
+2021-12-06 23:39:25,764 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.6909,  1.7170,  1.7311,  ...,  1.9721,  1.8013,  1.7570],
+2021-12-06 23:39:25,764 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.6599,  1.7163,  1.7428,  ...,  2.1514,  1.9831,  1.6698],
+2021-12-06 23:39:25,764 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.8048,  1.7663,  2.0026,  ...,  2.1623,  1.9918,  1.6529],
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.8171,  1.5771,  1.7827,  ...,  1.9727,  1.7943,  1.7491],
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [ 1.9858,  1.7799,  1.7008,  ...,  1.6204,  1.7345,  1.9248]],
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -         [[-1.5898, -1.4875, -1.4789,  ..., -0.9863, -1.0936, -1.3187],
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.5162, -1.5552, -1.5791,  ..., -1.0264, -0.8888, -1.0045],
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.5015, -1.6049, -1.5575,  ..., -1.0660, -0.9778, -0.8402],
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.0447, -0.8221, -0.9755,  ..., -1.0821, -0.9994, -0.8640],
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.1710, -0.7709, -0.9224,  ..., -1.0518, -0.9440, -1.0486],
+2021-12-06 23:39:25,765 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [-1.4360, -1.1679, -1.0303,  ..., -0.9475, -1.0953, -1.3978]]])
+2021-12-06 23:39:25,766 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:39:25,766 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:39:25,766 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - tensor([[[0.9670, 0.9618, 0.9603,  ..., 0.9388, 0.9471, 0.9639],
+2021-12-06 23:39:25,766 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9611, 0.9635, 0.9648,  ..., 0.9525, 0.9364, 0.9406],
+2021-12-06 23:39:25,766 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9594, 0.9651, 0.9644,  ..., 0.9615, 0.9508, 0.9248],
+2021-12-06 23:39:25,767 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:39:25,767 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9453, 0.9301, 0.9516,  ..., 0.9625, 0.9522, 0.9253],
+2021-12-06 23:39:25,767 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9520, 0.9128, 0.9373,  ..., 0.9537, 0.9392, 0.9426],
+2021-12-06 23:39:25,767 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.9684, 0.9502, 0.9388,  ..., 0.9288, 0.9443, 0.9652]],
+2021-12-06 23:39:25,768 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:39:25,768 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -         [[0.0330, 0.0382, 0.0397,  ..., 0.0612, 0.0529, 0.0361],
+2021-12-06 23:39:25,768 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0389, 0.0365, 0.0352,  ..., 0.0475, 0.0636, 0.0594],
+2021-12-06 23:39:25,768 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0406, 0.0349, 0.0356,  ..., 0.0385, 0.0492, 0.0752],
+2021-12-06 23:39:25,768 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:39:25,768 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0547, 0.0699, 0.0484,  ..., 0.0375, 0.0478, 0.0747],
+2021-12-06 23:39:25,787 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0480, 0.0872, 0.0627,  ..., 0.0463, 0.0608, 0.0574],
+2021-12-06 23:39:25,791 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG -          [0.0316, 0.0498, 0.0612,  ..., 0.0712, 0.0557, 0.0348]]])
+2021-12-06 23:39:25,791 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:39:25,791 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 8922.0283203125
+2021-12-06 23:39:25,791 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - 1
+2021-12-06 23:41:58,459 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - tensor([[[ 1.6552,  1.6731,  1.6851,  ...,  1.8931,  1.9025,  2.0196],
+2021-12-06 23:41:58,460 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.6131,  1.7213,  1.7166,  ...,  1.6768,  1.7528,  1.9021],
+2021-12-06 23:41:58,460 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.5995,  1.7125,  1.7414,  ...,  1.6393,  1.6204,  1.8802],
+2021-12-06 23:41:58,460 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:41:58,460 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.6047,  1.7130,  1.7236,  ...,  1.6158,  1.6214,  1.8601],
+2021-12-06 23:41:58,460 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.5846,  1.6850,  1.7091,  ...,  1.6209,  1.6783,  1.9041],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [ 1.6702,  1.6210,  1.6351,  ...,  1.8597,  1.9167,  2.0103]],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -         [[-1.5299, -1.5149, -1.5231,  ..., -1.4420, -1.4913, -1.5750],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.5673, -1.5838, -1.5955,  ..., -1.1641, -1.2701, -1.4521],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.5758, -1.6248, -1.5680,  ..., -0.9862, -1.0745, -1.3686],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.5786, -1.5782, -1.6073,  ..., -0.8611, -0.9323, -1.2550],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.5371, -1.5500, -1.5197,  ..., -1.0131, -1.1192, -1.3816],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [-1.5424, -1.4248, -1.4306,  ..., -1.3582, -1.4395, -1.5759]]])
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - torch.Size([2, 512, 512])
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - ==================================================
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - tensor([[[0.9603, 0.9604, 0.9611,  ..., 0.9656, 0.9675, 0.9733],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9601, 0.9646, 0.9648,  ..., 0.9448, 0.9536, 0.9662],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9599, 0.9657, 0.9648,  ..., 0.9325, 0.9367, 0.9626],
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:41:58,461 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9602, 0.9641, 0.9655,  ..., 0.9225, 0.9278, 0.9575],
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9578, 0.9621, 0.9619,  ..., 0.9330, 0.9425, 0.9639],
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.9613, 0.9546, 0.9555,  ..., 0.9615, 0.9663, 0.9730]],
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -         [[0.0397, 0.0396, 0.0389,  ..., 0.0344, 0.0325, 0.0267],
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0399, 0.0354, 0.0352,  ..., 0.0552, 0.0464, 0.0338],
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0401, 0.0343, 0.0352,  ..., 0.0675, 0.0633, 0.0374],
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          ...,
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0398, 0.0359, 0.0345,  ..., 0.0775, 0.0722, 0.0425],
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0422, 0.0379, 0.0381,  ..., 0.0670, 0.0575, 0.0361],
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG -          [0.0387, 0.0454, 0.0445,  ..., 0.0385, 0.0337, 0.0270]]])
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.6847025
+2021-12-06 23:41:58,462 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.021283299
+2021-12-06 23:41:58,480 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 1.0
+2021-12-06 23:41:58,483 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:41:58,483 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.6847025
+2021-12-06 23:41:58,483 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 0.0
+2021-12-06 23:41:58,483 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 8569
+2021-12-06 23:41:58,483 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - ==============================
+2021-12-06 23:41:58,483 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 5076.64697265625
+2021-12-06 23:41:58,483 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - 8569
+2021-12-07 14:22:14,460 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-07 14:22:14,470 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-07 14:22:14,490 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-07 14:22:14,505 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-07 14:22:14,530 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-07 14:22:14,560 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-07 14:22:14,576 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-07 14:22:14,605 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2d70e43d8bd742c1807c494069f65957/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-07 14:22:14,622 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/2d70e43d8bd742c1807c494069f65957/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m

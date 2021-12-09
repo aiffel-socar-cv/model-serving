@@ -1,1 +1,4 @@
-2021-11-29 16:49:30,341 - PredictionTime.Milliseconds:1575.93|#ModelName:dent,Level:Model|#hostname:Tae-wons-MacBook-Pro.local,requestID:a59c8d7c-bd22-4b1f-addb-5f943bc05401,timestamp:1638172170
+2021-12-09 10:48:53,437 - PredictionTime.Milliseconds:5553.36|#ModelName:dent,Level:Model|#hostname:Tae-wons-MacBook-Pro.local,requestID:5bf7734d-434a-45cf-a9f2-2534e4b96a21,timestamp:1639014533
+2021-12-09 10:49:28,360 - PredictionTime.Milliseconds:3054.25|#ModelName:scratch,Level:Model|#hostname:Tae-wons-MacBook-Pro.local,requestID:25d85283-e485-46b7-ac74-a3812ea2a6a1,timestamp:1639014568
+2021-12-09 10:50:18,603 - PredictionTime.Milliseconds:3025.36|#ModelName:scratch,Level:Model|#hostname:Tae-wons-MacBook-Pro.local,requestID:931b30be-8248-4849-8ff4-33660a52cc2d,timestamp:1639014618
+2021-12-09 10:51:23,310 - PredictionTime.Milliseconds:3011.26|#ModelName:spacing,Level:Model|#hostname:Tae-wons-MacBook-Pro.local,requestID:2476aa16-6850-4340-b2ba-63d18d24a70d,timestamp:1639014683
