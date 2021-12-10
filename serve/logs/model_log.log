@@ -1,156 +1,384 @@
-2021-12-09 10:48:37,836 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001
-2021-12-09 10:48:37,837 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002
-2021-12-09 10:48:37,837 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003
-2021-12-09 10:48:37,837 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006
-2021-12-09 10:48:37,837 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005
-2021-12-09 10:48:37,837 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000
-2021-12-09 10:48:37,837 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004
-2021-12-09 10:48:37,836 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007
-2021-12-09 10:48:37,844 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - [PID]24212
-2021-12-09 10:48:37,846 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - [PID]24214
-2021-12-09 10:48:37,846 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - [PID]24219
-2021-12-09 10:48:37,846 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - [PID]24218
-2021-12-09 10:48:37,846 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - [PID]24215
-2021-12-09 10:48:37,845 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - [PID]24217
-2021-12-09 10:48:37,845 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - [PID]24213
-2021-12-09 10:48:37,847 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - [PID]24216
-2021-12-09 10:48:37,848 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:37,849 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:37,849 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:37,849 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:37,849 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:37,849 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:37,849 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:37,849 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:37,849 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:37,852 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:37,853 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:37,853 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:37,853 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:37,853 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:37,853 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:37,853 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:38,083 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002.
-2021-12-09 10:48:38,084 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004.
-2021-12-09 10:48:38,083 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006.
-2021-12-09 10:48:38,083 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005.
-2021-12-09 10:48:38,083 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007.
-2021-12-09 10:48:38,083 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003.
-2021-12-09 10:48:38,083 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001.
-2021-12-09 10:48:38,083 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000.
-2021-12-09 10:48:38,191 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-12-09 10:48:38,194 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-12-09 10:48:38,194 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-12-09 10:48:38,194 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-12-09 10:48:38,193 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-12-09 10:48:38,192 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-12-09 10:48:38,192 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-12-09 10:48:38,192 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
-2021-12-09 10:48:42,566 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010
-2021-12-09 10:48:42,566 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015
-2021-12-09 10:48:42,566 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014
-2021-12-09 10:48:42,573 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - [PID]24227
-2021-12-09 10:48:42,574 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - [PID]24226
-2021-12-09 10:48:42,573 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - [PID]24233
-2021-12-09 10:48:42,582 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008
-2021-12-09 10:48:42,585 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - [PID]24228
-2021-12-09 10:48:42,587 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:42,587 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:42,585 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:42,592 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:42,585 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:42,599 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:42,599 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:42,600 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009
-2021-12-09 10:48:42,600 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:42,605 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - [PID]24230
-2021-12-09 10:48:42,606 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013
-2021-12-09 10:48:42,613 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:42,613 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011
-2021-12-09 10:48:42,627 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - [PID]24229
-2021-12-09 10:48:42,640 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:42,660 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008.
-2021-12-09 10:48:42,658 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010.
-2021-12-09 10:48:42,651 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015.
-2021-12-09 10:48:42,650 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014.
-2021-12-09 10:48:42,650 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012
-2021-12-09 10:48:42,644 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:42,641 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - [PID]24231
-2021-12-09 10:48:42,668 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009.
-2021-12-09 10:48:42,670 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:42,671 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:42,670 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - [PID]24232
-2021-12-09 10:48:42,752 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:42,769 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:42,787 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:42,788 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013.
-2021-12-09 10:48:42,792 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-12-09 10:48:42,871 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-12-09 10:48:42,901 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-12-09 10:48:42,872 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-12-09 10:48:42,872 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-12-09 10:48:42,871 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-12-09 10:48:42,921 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011.
-2021-12-09 10:48:42,922 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012.
-2021-12-09 10:48:43,018 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-12-09 10:48:43,019 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
-2021-12-09 10:48:48,314 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018
-2021-12-09 10:48:48,369 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - [PID]24242
-2021-12-09 10:48:48,370 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:48,370 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:48,404 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018.
-2021-12-09 10:48:48,405 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017
-2021-12-09 10:48:48,405 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021
-2021-12-09 10:48:48,425 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - [PID]24236
-2021-12-09 10:48:48,425 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016
-2021-12-09 10:48:48,425 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - [PID]24238
-2021-12-09 10:48:48,425 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022
-2021-12-09 10:48:48,440 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019
-2021-12-09 10:48:48,440 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:48,442 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:48,438 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:48,442 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:48,442 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - [PID]24241
-2021-12-09 10:48:48,438 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - [PID]24240
-2021-12-09 10:48:48,442 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - [PID]24235
-2021-12-09 10:48:48,442 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020
-2021-12-09 10:48:48,454 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:48,448 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:48,479 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017.
-2021-12-09 10:48:48,476 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - [PID]24239
-2021-12-09 10:48:48,476 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-12-09 10:48:48,473 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023
-2021-12-09 10:48:48,473 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021.
-2021-12-09 10:48:48,472 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:48,606 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:48,641 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - [PID]24237
-2021-12-09 10:48:48,640 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:48,624 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:48,610 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-12-09 10:48:48,607 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-12-09 10:48:48,609 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:48,696 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:48,697 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016.
-2021-12-09 10:48:48,697 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-12-09 10:48:48,699 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022.
-2021-12-09 10:48:48,699 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-12-09 10:48:48,700 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019.
-2021-12-09 10:48:48,700 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-12-09 10:48:48,704 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Torch worker started.
-2021-12-09 10:48:48,705 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
-2021-12-09 10:48:48,730 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023.
-2021-12-09 10:48:48,730 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020.
-2021-12-09 10:48:48,747 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-12-09 10:48:48,747 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
-2021-12-09 10:48:53,422 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/d42f4c0186574ee5b1b7430c9257c290/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-12-09 10:48:53,429 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/d42f4c0186574ee5b1b7430c9257c290/best_imagenet-b4_0.421.pth [0m
-2021-12-09 10:48:53,433 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 20190505_4365_22799772_41d86711015ea27da507aeb173247702.png uploaded to masks-dent/20190505_4365_22799772_41d86711015ea27da507aeb173247702.png.
-2021-12-09 10:49:28,354 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/898e1ba6a43a44b08cf3173810de6cbf/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-12-09 10:49:28,359 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/898e1ba6a43a44b08cf3173810de6cbf/best_stanford-ssl-b4_0.586.pth [0m
-2021-12-09 10:49:28,359 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - File 20190505_4365_22799772_41d86711015ea27da507aeb173247702.png uploaded to masks-scratch/20190505_4365_22799772_41d86711015ea27da507aeb173247702.png.
-2021-12-09 10:50:18,593 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/898e1ba6a43a44b08cf3173810de6cbf/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-12-09 10:50:18,596 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/898e1ba6a43a44b08cf3173810de6cbf/best_stanford-ssl-b4_0.586.pth [0m
-2021-12-09 10:50:18,596 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - File 20190505_4365_22799772_41d86711015ea27da507aeb173247702.png uploaded to masks-scratch/20190505_4365_22799772_41d86711015ea27da507aeb173247702.png.
-2021-12-09 10:51:23,306 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b7e89bab988a474cbe67b796ad434798/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
-2021-12-09 10:51:23,309 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b7e89bab988a474cbe67b796ad434798/best_stanford-ssl-b4_0.210.pth [0m
-2021-12-09 10:51:23,310 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - File 20190505_4365_22799772_41d86711015ea27da507aeb173247702.png uploaded to masks-spacing/20190505_4365_22799772_41d86711015ea27da507aeb173247702.png.
+2021-12-10 15:54:59,647 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002
+2021-12-10 15:54:59,649 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003
+2021-12-10 15:54:59,649 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005
+2021-12-10 15:54:59,648 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000
+2021-12-10 15:54:59,648 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001
+2021-12-10 15:54:59,648 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007
+2021-12-10 15:54:59,651 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - [PID]34296
+2021-12-10 15:54:59,648 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006
+2021-12-10 15:54:59,647 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004
+2021-12-10 15:54:59,651 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:54:59,651 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - [PID]34294
+2021-12-10 15:54:59,652 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - [PID]34298
+2021-12-10 15:54:59,652 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - [PID]34299
+2021-12-10 15:54:59,652 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - [PID]34301
+2021-12-10 15:54:59,655 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - [PID]34297
+2021-12-10 15:54:59,657 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - [PID]34300
+2021-12-10 15:54:59,657 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - [PID]34295
+2021-12-10 15:54:59,656 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:54:59,656 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:54:59,657 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:54:59,659 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:54:59,659 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:54:59,659 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:54:59,660 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:54:59,659 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:54:59,659 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:54:59,660 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:54:59,660 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:54:59,660 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:54:59,666 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:54:59,666 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:54:59,666 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:54:59,897 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005.
+2021-12-10 15:54:59,897 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007.
+2021-12-10 15:54:59,897 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003.
+2021-12-10 15:54:59,897 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000.
+2021-12-10 15:54:59,897 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004.
+2021-12-10 15:54:59,897 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001.
+2021-12-10 15:54:59,897 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002.
+2021-12-10 15:54:59,897 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006.
+2021-12-10 15:55:00,022 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-10 15:55:00,022 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-10 15:55:00,022 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-10 15:55:00,022 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-10 15:55:00,022 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-10 15:55:00,022 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-10 15:55:00,022 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-10 15:55:00,022 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - model_name: spacing, batchSize: 1
+2021-12-10 15:55:03,608 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015
+2021-12-10 15:55:03,619 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - [PID]34303
+2021-12-10 15:55:03,627 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010
+2021-12-10 15:55:03,627 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:03,628 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:03,629 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - [PID]34304
+2021-12-10 15:55:03,630 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012
+2021-12-10 15:55:03,630 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:03,633 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - [PID]34305
+2021-12-10 15:55:03,636 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:03,636 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:03,637 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:03,651 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015.
+2021-12-10 15:55:03,662 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008
+2021-12-10 15:55:03,662 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010.
+2021-12-10 15:55:03,652 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012.
+2021-12-10 15:55:03,712 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009
+2021-12-10 15:55:03,695 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013
+2021-12-10 15:55:03,695 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014
+2021-12-10 15:55:03,694 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011
+2021-12-10 15:55:03,724 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - [PID]34308
+2021-12-10 15:55:03,714 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - [PID]34309
+2021-12-10 15:55:03,714 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - [PID]34302
+2021-12-10 15:55:03,726 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - [PID]34307
+2021-12-10 15:55:03,730 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - [PID]34306
+2021-12-10 15:55:03,731 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-10 15:55:03,733 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:03,731 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:03,731 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-10 15:55:03,731 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-10 15:55:03,734 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:03,734 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:03,733 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:03,733 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:03,740 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:03,760 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009.
+2021-12-10 15:55:03,760 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:03,761 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:03,761 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:03,762 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013.
+2021-12-10 15:55:03,762 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008.
+2021-12-10 15:55:03,762 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014.
+2021-12-10 15:55:03,839 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-10 15:55:03,909 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-10 15:55:03,922 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011.
+2021-12-10 15:55:03,921 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-10 15:55:03,921 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-10 15:55:03,946 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - model_name: dent, batchSize: 1
+2021-12-10 15:55:07,842 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016
+2021-12-10 15:55:07,846 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - [PID]34314
+2021-12-10 15:55:07,846 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:07,846 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:07,876 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016.
+2021-12-10 15:55:07,886 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020
+2021-12-10 15:55:07,886 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017
+2021-12-10 15:55:07,887 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-10 15:55:07,886 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021
+2021-12-10 15:55:07,890 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - [PID]34310
+2021-12-10 15:55:07,890 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - [PID]34312
+2021-12-10 15:55:07,890 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - [PID]34311
+2021-12-10 15:55:07,891 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:07,891 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:07,892 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023
+2021-12-10 15:55:07,893 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:07,893 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:07,904 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:07,908 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - [PID]34316
+2021-12-10 15:55:07,909 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:07,913 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019
+2021-12-10 15:55:07,913 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022
+2021-12-10 15:55:07,913 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - [PID]34317
+2021-12-10 15:55:07,913 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - [PID]34313
+2021-12-10 15:55:07,913 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:07,913 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Listening on port: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018
+2021-12-10 15:55:07,913 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:07,913 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:07,920 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021.
+2021-12-10 15:55:07,922 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - [PID]34315
+2021-12-10 15:55:07,920 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:07,930 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017.
+2021-12-10 15:55:07,930 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:07,936 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020.
+2021-12-10 15:55:07,937 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-10 15:55:07,937 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022.
+2021-12-10 15:55:07,937 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-10 15:55:07,940 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-10 15:55:07,940 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019.
+2021-12-10 15:55:07,942 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Torch worker started.
+2021-12-10 15:55:07,944 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:07,947 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-10 15:55:07,947 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-10 15:55:07,981 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Python runtime: 3.9.7
+2021-12-10 15:55:07,981 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023.
+2021-12-10 15:55:07,999 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-10 15:55:08,008 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - Connection accepted: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018.
+2021-12-10 15:55:08,014 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - model_name: scratch, batchSize: 1
+2021-12-10 15:55:19,847 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:55:19,863 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/best_imagenet-b4_0.421.pth [0m
+2021-12-10 15:55:19,867 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-dent/202108141528_001_0005_05_07.png.
+2021-12-10 15:55:22,971 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:55:22,989 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/best_stanford-ssl-b4_0.586.pth [0m
+2021-12-10 15:55:22,989 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-scratch/202108141528_001_0005_05_07.png.
+2021-12-10 15:55:26,700 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:55:26,713 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/best_stanford-ssl-b4_0.210.pth [0m
+2021-12-10 15:55:26,713 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-spacing/202108141528_001_0005_05_07.png.
+2021-12-10 15:55:34,498 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:55:34,511 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/best_imagenet-b4_0.421.pth [0m
+2021-12-10 15:55:34,511 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-dent/202108141528_001_0005_05_07.png.
+2021-12-10 15:55:37,606 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:55:37,620 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/best_stanford-ssl-b4_0.586.pth [0m
+2021-12-10 15:55:37,620 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-scratch/202108141528_001_0005_05_07.png.
+2021-12-10 15:55:40,715 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:55:40,725 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/best_stanford-ssl-b4_0.210.pth [0m
+2021-12-10 15:55:40,725 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-spacing/202108141528_001_0005_05_07.png.
+2021-12-10 15:55:44,113 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:55:44,125 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/best_imagenet-b4_0.421.pth [0m
+2021-12-10 15:55:44,125 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-dent/202108141528_001_0005_05_07.png.
+2021-12-10 15:56:00,570 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:56:00,573 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/best_imagenet-b4_0.421.pth [0m
+2021-12-10 15:56:00,573 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 20190421_5831_22190653_95e51a9df25733efb180707d5cfcb9fb.png uploaded to masks-dent/20190421_5831_22190653_95e51a9df25733efb180707d5cfcb9fb.png.
+2021-12-10 15:56:52,791 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:56:52,800 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/best_imagenet-b4_0.421.pth [0m
+2021-12-10 15:56:52,800 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-dent/202108141528_001_0005_05_07.png.
+2021-12-10 15:57:46,065 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:57:46,080 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/best_imagenet-b4_0.421.pth [0m
+2021-12-10 15:57:46,080 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-dent/202108141528_001_0005_05_07.png.
+2021-12-10 15:57:48,973 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:57:48,982 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/best_imagenet-b4_0.421.pth [0m
+2021-12-10 15:57:48,982 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_01.png uploaded to masks-dent/202108131305_001_0004_04_01.png.
+2021-12-10 15:57:51,915 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 15:57:51,926 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3e8d1913f08e449785a870eff0b28a4a/best_imagenet-b4_0.421.pth [0m
+2021-12-10 15:57:51,926 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_06.png uploaded to masks-dent/202108141528_001_0005_05_06.png.
+2021-12-10 15:57:54,780 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_04.png uploaded to masks-dent/202108141528_001_0005_05_04.png.
+2021-12-10 15:57:57,686 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_03.png uploaded to masks-dent/202108131305_001_0004_04_03.png.
+2021-12-10 15:58:00,590 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_02.png uploaded to masks-dent/202108131305_001_0004_04_02.png.
+2021-12-10 15:58:03,539 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_05.png uploaded to masks-dent/202108141528_001_0005_05_05.png.
+2021-12-10 15:58:06,395 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_01.png uploaded to masks-dent/202108141528_001_0005_05_01.png.
+2021-12-10 15:58:09,228 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_06.png uploaded to masks-dent/202108131305_001_0004_04_06.png.
+2021-12-10 15:58:12,328 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_07.png uploaded to masks-dent/202108131305_001_0004_04_07.png.
+2021-12-10 15:58:15,305 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_08.png uploaded to masks-dent/202108150921_001_0006_06_08.png.
+2021-12-10 15:58:18,054 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_02.png uploaded to masks-dent/202108141528_001_0005_05_02.png.
+2021-12-10 15:58:20,888 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_08.png uploaded to masks-dent/202108121517_001_0003_03_08.png.
+2021-12-10 15:58:23,748 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_05.png uploaded to masks-dent/202108131305_001_0004_04_05.png.
+2021-12-10 15:58:26,888 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_04.png uploaded to masks-dent/202108131305_001_0004_04_04.png.
+2021-12-10 15:58:30,197 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_03.png uploaded to masks-dent/202108141528_001_0005_05_03.png.
+2021-12-10 15:58:33,285 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_06.png uploaded to masks-dent/202108101052_001_0001_01_06.png.
+2021-12-10 15:58:36,168 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_05.png uploaded to masks-dent/202108111042_001_0002_02_05.png.
+2021-12-10 15:58:38,983 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_04.png uploaded to masks-dent/202108111042_001_0002_02_04.png.
+2021-12-10 15:58:41,923 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_07.png uploaded to masks-dent/202108101052_001_0001_01_07.png.
+2021-12-10 15:58:44,682 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_05.png uploaded to masks-dent/202108101052_001_0001_01_05.png.
+2021-12-10 15:58:47,740 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_06.png uploaded to masks-dent/202108111042_001_0002_02_06.png.
+2021-12-10 15:59:21,229 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-dent/202108141528_001_0005_05_07.png.
+2021-12-10 15:59:24,029 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_01.png uploaded to masks-dent/202108131305_001_0004_04_01.png.
+2021-12-10 15:59:27,137 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_06.png uploaded to masks-dent/202108141528_001_0005_05_06.png.
+2021-12-10 15:59:30,019 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_04.png uploaded to masks-dent/202108141528_001_0005_05_04.png.
+2021-12-10 16:01:14,953 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-dent/202108141528_001_0005_05_07.png.
+2021-12-10 16:01:18,101 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_01.png uploaded to masks-dent/202108131305_001_0004_04_01.png.
+2021-12-10 16:01:21,986 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_06.png uploaded to masks-dent/202108141528_001_0005_05_06.png.
+2021-12-10 16:01:24,904 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_04.png uploaded to masks-dent/202108141528_001_0005_05_04.png.
+2021-12-10 16:01:27,737 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_03.png uploaded to masks-dent/202108131305_001_0004_04_03.png.
+2021-12-10 16:01:30,606 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_02.png uploaded to masks-dent/202108131305_001_0004_04_02.png.
+2021-12-10 16:01:33,694 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_05.png uploaded to masks-dent/202108141528_001_0005_05_05.png.
+2021-12-10 16:01:36,640 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_01.png uploaded to masks-dent/202108141528_001_0005_05_01.png.
+2021-12-10 16:01:39,451 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_06.png uploaded to masks-dent/202108131305_001_0004_04_06.png.
+2021-12-10 16:01:42,553 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_07.png uploaded to masks-dent/202108131305_001_0004_04_07.png.
+2021-12-10 16:01:46,387 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_08.png uploaded to masks-dent/202108150921_001_0006_06_08.png.
+2021-12-10 16:01:49,191 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_02.png uploaded to masks-dent/202108141528_001_0005_05_02.png.
+2021-12-10 16:01:52,027 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_08.png uploaded to masks-dent/202108121517_001_0003_03_08.png.
+2021-12-10 16:01:54,843 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_05.png uploaded to masks-dent/202108131305_001_0004_04_05.png.
+2021-12-10 16:01:57,715 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_04.png uploaded to masks-dent/202108131305_001_0004_04_04.png.
+2021-12-10 16:02:00,470 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_03.png uploaded to masks-dent/202108141528_001_0005_05_03.png.
+2021-12-10 16:02:03,380 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_06.png uploaded to masks-dent/202108101052_001_0001_01_06.png.
+2021-12-10 16:02:06,557 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_05.png uploaded to masks-dent/202108111042_001_0002_02_05.png.
+2021-12-10 16:02:09,464 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_04.png uploaded to masks-dent/202108111042_001_0002_02_04.png.
+2021-12-10 16:02:12,154 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_07.png uploaded to masks-dent/202108101052_001_0001_01_07.png.
+2021-12-10 16:02:15,265 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_05.png uploaded to masks-dent/202108101052_001_0001_01_05.png.
+2021-12-10 16:02:18,122 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_06.png uploaded to masks-dent/202108111042_001_0002_02_06.png.
+2021-12-10 16:02:21,059 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_07.png uploaded to masks-dent/202108111042_001_0002_02_07.png.
+2021-12-10 16:02:23,879 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_04.png uploaded to masks-dent/202108101052_001_0001_01_04.png.
+2021-12-10 16:02:26,627 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_03.png uploaded to masks-dent/202108111042_001_0002_02_03.png.
+2021-12-10 16:02:29,520 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_02.png uploaded to masks-dent/202108111042_001_0002_02_02.png.
+2021-12-10 16:02:32,999 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_01.png uploaded to masks-dent/202108101052_001_0001_01_01.png.
+2021-12-10 16:02:35,870 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_03.png uploaded to masks-dent/202108101052_001_0001_01_03.png.
+2021-12-10 16:02:38,820 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_01.png uploaded to masks-dent/202108111042_001_0002_02_01.png.
+2021-12-10 16:02:41,650 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_02.png uploaded to masks-dent/202108101052_001_0001_01_02.png.
+2021-12-10 16:02:44,670 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_08.png uploaded to masks-dent/202108101052_001_0001_01_08.png.
+2021-12-10 16:02:47,744 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_08.png uploaded to masks-dent/202108111042_001_0002_02_08.png.
+2021-12-10 16:02:51,615 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_04.png uploaded to masks-dent/202108121517_001_0003_03_04.png.
+2021-12-10 16:02:54,581 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_06.png uploaded to masks-dent/202108150921_001_0006_06_06.png.
+2021-12-10 16:02:57,635 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_08.png uploaded to masks-dent/202108131305_001_0004_04_08.png.
+2021-12-10 16:03:00,633 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_07.png uploaded to masks-dent/202108150921_001_0006_06_07.png.
+2021-12-10 16:03:03,539 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_05.png uploaded to masks-dent/202108121517_001_0003_03_05.png.
+2021-12-10 16:03:06,584 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_07.png uploaded to masks-dent/202108121517_001_0003_03_07.png.
+2021-12-10 16:03:09,490 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_05.png uploaded to masks-dent/202108150921_001_0006_06_05.png.
+2021-12-10 16:03:12,719 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_04.png uploaded to masks-dent/202108150921_001_0006_06_04.png.
+2021-12-10 16:03:15,612 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_06.png uploaded to masks-dent/202108121517_001_0003_03_06.png.
+2021-12-10 16:03:18,437 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_02.png uploaded to masks-dent/202108121517_001_0003_03_02.png.
+2021-12-10 16:03:21,347 [INFO ] W-9015-dent_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_08.png uploaded to masks-dent/202108141528_001_0005_05_08.png.
+2021-12-10 16:03:24,247 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_01.png uploaded to masks-dent/202108150921_001_0006_06_01.png.
+2021-12-10 16:03:27,129 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_03.png uploaded to masks-dent/202108121517_001_0003_03_03.png.
+2021-12-10 16:03:30,092 [INFO ] W-9013-dent_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_01.png uploaded to masks-dent/202108121517_001_0003_03_01.png.
+2021-12-10 16:03:33,136 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_03.png uploaded to masks-dent/202108150921_001_0006_06_03.png.
+2021-12-10 16:03:36,573 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_02.png uploaded to masks-dent/202108150921_001_0006_06_02.png.
+2021-12-10 16:03:39,843 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:03:39,858 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/best_stanford-ssl-b4_0.586.pth [0m
+2021-12-10 16:03:39,858 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-scratch/202108141528_001_0005_05_07.png.
+2021-12-10 16:03:42,962 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:03:42,975 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/best_stanford-ssl-b4_0.586.pth [0m
+2021-12-10 16:03:42,975 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_01.png uploaded to masks-scratch/202108131305_001_0004_04_01.png.
+2021-12-10 16:03:46,012 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:03:46,019 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/best_stanford-ssl-b4_0.586.pth [0m
+2021-12-10 16:03:46,019 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_06.png uploaded to masks-scratch/202108141528_001_0005_05_06.png.
+2021-12-10 16:03:49,018 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:03:49,025 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/best_stanford-ssl-b4_0.586.pth [0m
+2021-12-10 16:03:49,025 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_04.png uploaded to masks-scratch/202108141528_001_0005_05_04.png.
+2021-12-10 16:03:51,995 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:03:51,995 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/best_stanford-ssl-b4_0.586.pth [0m
+2021-12-10 16:03:51,995 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_03.png uploaded to masks-scratch/202108131305_001_0004_04_03.png.
+2021-12-10 16:03:54,994 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:03:55,002 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/b77e4667ddea4b7182a58cade8df677a/best_stanford-ssl-b4_0.586.pth [0m
+2021-12-10 16:03:55,002 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_02.png uploaded to masks-scratch/202108131305_001_0004_04_02.png.
+2021-12-10 16:03:57,985 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_05.png uploaded to masks-scratch/202108141528_001_0005_05_05.png.
+2021-12-10 16:04:01,085 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_01.png uploaded to masks-scratch/202108141528_001_0005_05_01.png.
+2021-12-10 16:04:04,398 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_06.png uploaded to masks-scratch/202108131305_001_0004_04_06.png.
+2021-12-10 16:04:07,560 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_07.png uploaded to masks-scratch/202108131305_001_0004_04_07.png.
+2021-12-10 16:04:10,819 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_08.png uploaded to masks-scratch/202108150921_001_0006_06_08.png.
+2021-12-10 16:04:13,721 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_02.png uploaded to masks-scratch/202108141528_001_0005_05_02.png.
+2021-12-10 16:04:16,603 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_08.png uploaded to masks-scratch/202108121517_001_0003_03_08.png.
+2021-12-10 16:04:19,422 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_05.png uploaded to masks-scratch/202108131305_001_0004_04_05.png.
+2021-12-10 16:04:22,362 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_04.png uploaded to masks-scratch/202108131305_001_0004_04_04.png.
+2021-12-10 16:04:25,124 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_03.png uploaded to masks-scratch/202108141528_001_0005_05_03.png.
+2021-12-10 16:04:27,889 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_06.png uploaded to masks-scratch/202108101052_001_0001_01_06.png.
+2021-12-10 16:04:30,837 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_05.png uploaded to masks-scratch/202108111042_001_0002_02_05.png.
+2021-12-10 16:04:33,679 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_04.png uploaded to masks-scratch/202108111042_001_0002_02_04.png.
+2021-12-10 16:04:36,552 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_07.png uploaded to masks-scratch/202108101052_001_0001_01_07.png.
+2021-12-10 16:04:39,252 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_05.png uploaded to masks-scratch/202108101052_001_0001_01_05.png.
+2021-12-10 16:04:42,201 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_06.png uploaded to masks-scratch/202108111042_001_0002_02_06.png.
+2021-12-10 16:04:45,066 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_07.png uploaded to masks-scratch/202108111042_001_0002_02_07.png.
+2021-12-10 16:04:47,711 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_04.png uploaded to masks-scratch/202108101052_001_0001_01_04.png.
+2021-12-10 16:04:50,781 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_03.png uploaded to masks-scratch/202108111042_001_0002_02_03.png.
+2021-12-10 16:04:53,528 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_02.png uploaded to masks-scratch/202108111042_001_0002_02_02.png.
+2021-12-10 16:04:56,768 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_01.png uploaded to masks-scratch/202108101052_001_0001_01_01.png.
+2021-12-10 16:04:59,722 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_03.png uploaded to masks-scratch/202108101052_001_0001_01_03.png.
+2021-12-10 16:05:02,910 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_01.png uploaded to masks-scratch/202108111042_001_0002_02_01.png.
+2021-12-10 16:05:06,658 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_02.png uploaded to masks-scratch/202108101052_001_0001_01_02.png.
+2021-12-10 16:05:09,722 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_08.png uploaded to masks-scratch/202108101052_001_0001_01_08.png.
+2021-12-10 16:05:12,706 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_08.png uploaded to masks-scratch/202108111042_001_0002_02_08.png.
+2021-12-10 16:05:16,113 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_04.png uploaded to masks-scratch/202108121517_001_0003_03_04.png.
+2021-12-10 16:05:19,133 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_06.png uploaded to masks-scratch/202108150921_001_0006_06_06.png.
+2021-12-10 16:05:22,081 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_08.png uploaded to masks-scratch/202108131305_001_0004_04_08.png.
+2021-12-10 16:05:25,026 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_07.png uploaded to masks-scratch/202108150921_001_0006_06_07.png.
+2021-12-10 16:05:27,901 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_05.png uploaded to masks-scratch/202108121517_001_0003_03_05.png.
+2021-12-10 16:05:30,731 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_07.png uploaded to masks-scratch/202108121517_001_0003_03_07.png.
+2021-12-10 16:05:33,651 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_05.png uploaded to masks-scratch/202108150921_001_0006_06_05.png.
+2021-12-10 16:05:36,863 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_04.png uploaded to masks-scratch/202108150921_001_0006_06_04.png.
+2021-12-10 16:05:39,885 [INFO ] W-9018-scratch_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_06.png uploaded to masks-scratch/202108121517_001_0003_03_06.png.
+2021-12-10 16:05:43,061 [INFO ] W-9017-scratch_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_02.png uploaded to masks-scratch/202108121517_001_0003_03_02.png.
+2021-12-10 16:05:46,109 [INFO ] W-9016-scratch_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_08.png uploaded to masks-scratch/202108141528_001_0005_05_08.png.
+2021-12-10 16:05:49,264 [INFO ] W-9023-scratch_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_01.png uploaded to masks-scratch/202108150921_001_0006_06_01.png.
+2021-12-10 16:05:52,090 [INFO ] W-9020-scratch_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_03.png uploaded to masks-scratch/202108121517_001_0003_03_03.png.
+2021-12-10 16:05:55,157 [INFO ] W-9019-scratch_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_01.png uploaded to masks-scratch/202108121517_001_0003_03_01.png.
+2021-12-10 16:05:58,032 [INFO ] W-9021-scratch_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_03.png uploaded to masks-scratch/202108150921_001_0006_06_03.png.
+2021-12-10 16:06:00,883 [INFO ] W-9022-scratch_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_02.png uploaded to masks-scratch/202108150921_001_0006_06_02.png.
+2021-12-10 16:06:04,490 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:06:04,505 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/best_stanford-ssl-b4_0.210.pth [0m
+2021-12-10 16:06:04,505 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_07.png uploaded to masks-spacing/202108141528_001_0005_05_07.png.
+2021-12-10 16:06:07,597 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:06:07,612 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/best_stanford-ssl-b4_0.210.pth [0m
+2021-12-10 16:06:07,612 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_01.png uploaded to masks-spacing/202108131305_001_0004_04_01.png.
+2021-12-10 16:06:10,796 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:06:10,797 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/best_stanford-ssl-b4_0.210.pth [0m
+2021-12-10 16:06:10,797 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_06.png uploaded to masks-spacing/202108141528_001_0005_05_06.png.
+2021-12-10 16:06:14,242 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:06:14,242 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/best_stanford-ssl-b4_0.210.pth [0m
+2021-12-10 16:06:14,242 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_04.png uploaded to masks-spacing/202108141528_001_0005_05_04.png.
+2021-12-10 16:06:17,300 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:06:17,300 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/best_stanford-ssl-b4_0.210.pth [0m
+2021-12-10 16:06:17,300 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_03.png uploaded to masks-spacing/202108131305_001_0004_04_03.png.
+2021-12-10 16:06:20,955 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - BACKBONE: [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/efficientunet/checkpoint/pretrained_effb4_orignal_stanford_16000.pt [0m
+2021-12-10 16:06:20,965 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - NET:  [32m /private/var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T/models/3324649289c4479fb69ad982a279365a/best_stanford-ssl-b4_0.210.pth [0m
+2021-12-10 16:06:20,965 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_02.png uploaded to masks-spacing/202108131305_001_0004_04_02.png.
+2021-12-10 16:06:24,096 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_05.png uploaded to masks-spacing/202108141528_001_0005_05_05.png.
+2021-12-10 16:06:27,215 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_01.png uploaded to masks-spacing/202108141528_001_0005_05_01.png.
+2021-12-10 16:06:30,329 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_06.png uploaded to masks-spacing/202108131305_001_0004_04_06.png.
+2021-12-10 16:06:33,223 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_07.png uploaded to masks-spacing/202108131305_001_0004_04_07.png.
+2021-12-10 16:06:36,267 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_08.png uploaded to masks-spacing/202108150921_001_0006_06_08.png.
+2021-12-10 16:06:39,118 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_02.png uploaded to masks-spacing/202108141528_001_0005_05_02.png.
+2021-12-10 16:06:41,985 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_08.png uploaded to masks-spacing/202108121517_001_0003_03_08.png.
+2021-12-10 16:06:44,919 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_05.png uploaded to masks-spacing/202108131305_001_0004_04_05.png.
+2021-12-10 16:06:47,705 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_04.png uploaded to masks-spacing/202108131305_001_0004_04_04.png.
+2021-12-10 16:06:50,509 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_03.png uploaded to masks-spacing/202108141528_001_0005_05_03.png.
+2021-12-10 16:06:53,355 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_06.png uploaded to masks-spacing/202108101052_001_0001_01_06.png.
+2021-12-10 16:06:56,224 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_05.png uploaded to masks-spacing/202108111042_001_0002_02_05.png.
+2021-12-10 16:06:59,072 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_04.png uploaded to masks-spacing/202108111042_001_0002_02_04.png.
+2021-12-10 16:07:01,871 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_07.png uploaded to masks-spacing/202108101052_001_0001_01_07.png.
+2021-12-10 16:07:04,627 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_05.png uploaded to masks-spacing/202108101052_001_0001_01_05.png.
+2021-12-10 16:07:07,475 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_06.png uploaded to masks-spacing/202108111042_001_0002_02_06.png.
+2021-12-10 16:07:10,298 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_07.png uploaded to masks-spacing/202108111042_001_0002_02_07.png.
+2021-12-10 16:07:13,099 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_04.png uploaded to masks-spacing/202108101052_001_0001_01_04.png.
+2021-12-10 16:07:15,815 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_03.png uploaded to masks-spacing/202108111042_001_0002_02_03.png.
+2021-12-10 16:07:18,717 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_02.png uploaded to masks-spacing/202108111042_001_0002_02_02.png.
+2021-12-10 16:07:22,077 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_01.png uploaded to masks-spacing/202108101052_001_0001_01_01.png.
+2021-12-10 16:07:24,858 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_03.png uploaded to masks-spacing/202108101052_001_0001_01_03.png.
+2021-12-10 16:07:27,700 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_01.png uploaded to masks-spacing/202108111042_001_0002_02_01.png.
+2021-12-10 16:07:30,901 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_02.png uploaded to masks-spacing/202108101052_001_0001_01_02.png.
+2021-12-10 16:07:33,941 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - File 202108101052_001_0001_01_08.png uploaded to masks-spacing/202108101052_001_0001_01_08.png.
+2021-12-10 16:07:36,886 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - File 202108111042_001_0002_02_08.png uploaded to masks-spacing/202108111042_001_0002_02_08.png.
+2021-12-10 16:07:40,199 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_04.png uploaded to masks-spacing/202108121517_001_0003_03_04.png.
+2021-12-10 16:07:43,196 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_06.png uploaded to masks-spacing/202108150921_001_0006_06_06.png.
+2021-12-10 16:07:46,278 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - File 202108131305_001_0004_04_08.png uploaded to masks-spacing/202108131305_001_0004_04_08.png.
+2021-12-10 16:07:49,197 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_07.png uploaded to masks-spacing/202108150921_001_0006_06_07.png.
+2021-12-10 16:07:52,166 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_05.png uploaded to masks-spacing/202108121517_001_0003_03_05.png.
+2021-12-10 16:07:55,254 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_07.png uploaded to masks-spacing/202108121517_001_0003_03_07.png.
+2021-12-10 16:07:58,077 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_05.png uploaded to masks-spacing/202108150921_001_0006_06_05.png.
+2021-12-10 16:08:01,439 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_04.png uploaded to masks-spacing/202108150921_001_0006_06_04.png.
+2021-12-10 16:08:04,294 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_06.png uploaded to masks-spacing/202108121517_001_0003_03_06.png.
+2021-12-10 16:08:07,463 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_02.png uploaded to masks-spacing/202108121517_001_0003_03_02.png.
+2021-12-10 16:08:10,386 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - File 202108141528_001_0005_05_08.png uploaded to masks-spacing/202108141528_001_0005_05_08.png.
+2021-12-10 16:08:13,221 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_01.png uploaded to masks-spacing/202108150921_001_0006_06_01.png.
+2021-12-10 16:08:16,072 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_03.png uploaded to masks-spacing/202108121517_001_0003_03_03.png.
+2021-12-10 16:08:18,921 [INFO ] W-9005-spacing_1.0-stdout MODEL_LOG - File 202108121517_001_0003_03_01.png uploaded to masks-spacing/202108121517_001_0003_03_01.png.
+2021-12-10 16:08:21,924 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_03.png uploaded to masks-spacing/202108150921_001_0006_06_03.png.
+2021-12-10 16:08:24,802 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - File 202108150921_001_0006_06_02.png uploaded to masks-spacing/202108150921_001_0006_06_02.png.
+2021-12-10 16:10:02,875 [INFO ] W-9007-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:02,911 [INFO ] W-9006-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:02,941 [INFO ] W-9004-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:02,965 [INFO ] W-9003-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:02,987 [INFO ] W-9002-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:03,006 [INFO ] W-9001-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:03,031 [INFO ] W-9000-spacing_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:03,105 [INFO ] W-9014-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:03,136 [INFO ] W-9012-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:03,158 [INFO ] W-9011-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:03,176 [INFO ] W-9010-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:03,186 [INFO ] W-9009-dent_1.0-stdout MODEL_LOG - Frontend disconnected.
+2021-12-10 16:10:03,200 [INFO ] W-9008-dent_1.0-stdout MODEL_LOG - Frontend disconnected.

@@ -1,4 +1,24 @@
 # Model Serving TEST
+
+
+
+## HOW TO RUN TEST
+
+**run server**
+```
+$ cd serve
+$ sh start_torchserve.sh
+```
+
+**stop server**
+```
+$ torchserve --stop
+```
+```
+$ sh stop_torchserve.sh
+```
+
+## TO DO LIST
 - [x] local에서 한 장씩 inference
 - [x] local에서 torchserve 
     - [x] `mar_builder.py`
@@ -8,11 +28,6 @@
          - dent
          - scartch
          - spacing
-- [ ] kubernetes (블로그 참조)
-- [ ] GCP에 올리기 (OAuth)
-- [ ] 배포 자동화 코드
-- [ ] 재학습
-- [ ] update
 
 ## 참고 자료
 - [TORCHSERVE](https://pytorch.org/serve/)
