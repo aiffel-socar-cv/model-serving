@@ -13,7 +13,7 @@
          - scartch
          - spacing
 
-## Payload
+## Payload Example
 ![](_asset/payload.png)
 
 ## Dependencies
