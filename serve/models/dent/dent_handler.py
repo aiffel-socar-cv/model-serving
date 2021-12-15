@@ -39,8 +39,11 @@ def inference(ckpt, net, device, image):
         get confidence score using softmax
         """
         output = output.squeeze()
+        print(output)
         m = torch.nn.Softmax(dim=0)
         output = m(output)
+        print("=" * 50)
+        print(output)
 
         mask = mask.squeeze()
         mask_num = int(sum(mask[mask == 1]))

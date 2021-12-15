@@ -1,5 +1,5 @@
-2021-12-10 15:54:55,024 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
-2021-12-10 15:54:55,579 [INFO ] main org.pytorch.serve.ModelServer - 
+2021-12-14 13:31:48,608 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2021-12-14 13:31:49,095 [INFO ] main org.pytorch.serve.ModelServer - 
 Torchserve version: 0.4.2
 TS Home: /Users/tseo/miniforge3/envs/torch/lib/python3.9/site-packages
 Current directory: /Users/tseo/Documents/Github/viai-serving/serve
@@ -29,680 +29,429 @@ Metrics report format: prometheus
 Enable metrics API: true
 Workflow Store: /Users/tseo/Documents/Github/viai-serving/serve/model_store
 Model config: N/A
-2021-12-10 15:54:55,589 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
-2021-12-10 15:54:55,633 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: spacing.mar
-2021-12-10 15:54:58,440 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model spacing
-2021-12-10 15:54:58,440 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model spacing
-2021-12-10 15:54:58,440 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model spacing loaded.
-2021-12-10 15:54:58,440 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: spacing, count: 8
-2021-12-10 15:54:58,455 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: dent.mar
-2021-12-10 15:54:59,671 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-spacing_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:54:59,674 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-spacing_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:54:59,674 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-spacing_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:54:59,673 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-spacing_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:54:59,673 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-spacing_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:54:59,673 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-spacing_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:54:59,671 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-spacing_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:54:59,671 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-spacing_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:54:59,708 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000
-2021-12-10 15:54:59,708 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007
-2021-12-10 15:54:59,708 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003
-2021-12-10 15:54:59,708 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006
-2021-12-10 15:54:59,708 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001
-2021-12-10 15:54:59,708 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002
-2021-12-10 15:54:59,708 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005
-2021-12-10 15:54:59,708 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004
-2021-12-10 15:55:02,213 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2201
-2021-12-10 15:55:02,216 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:02,233 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2224
-2021-12-10 15:55:02,233 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2224
-2021-12-10 15:55:02,233 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:02,234 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2225
-2021-12-10 15:55:02,235 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:02,235 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:02,241 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2232
-2021-12-10 15:55:02,242 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:02,250 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2241
-2021-12-10 15:55:02,251 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:02,253 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2243
-2021-12-10 15:55:02,253 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:02,255 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2245
-2021-12-10 15:55:02,256 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:02,829 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model dent
-2021-12-10 15:55:02,829 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model dent
-2021-12-10 15:55:02,829 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model dent loaded.
-2021-12-10 15:55:02,829 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: dent, count: 8
-2021-12-10 15:55:02,834 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: scratch.mar
-2021-12-10 15:55:03,635 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-dent_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:03,636 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010
-2021-12-10 15:55:03,636 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-dent_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:03,636 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-dent_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:03,638 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015
-2021-12-10 15:55:03,640 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012
-2021-12-10 15:55:03,732 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-dent_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:03,733 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-dent_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:03,733 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-dent_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:03,734 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009
-2021-12-10 15:55:03,734 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-dent_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:03,734 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014
-2021-12-10 15:55:03,734 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008
-2021-12-10 15:55:03,735 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013
-2021-12-10 15:55:03,735 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-dent_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:03,747 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011
-2021-12-10 15:55:05,361 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1633
-2021-12-10 15:55:05,366 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:05,532 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1804
-2021-12-10 15:55:05,532 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:05,538 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1810
-2021-12-10 15:55:05,538 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:05,556 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1712
-2021-12-10 15:55:05,556 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:05,573 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1730
-2021-12-10 15:55:05,573 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:05,601 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1759
-2021-12-10 15:55:05,604 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:05,628 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1773
-2021-12-10 15:55:05,628 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:05,705 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1763
-2021-12-10 15:55:05,705 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:07,005 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model scratch
-2021-12-10 15:55:07,006 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model scratch
-2021-12-10 15:55:07,006 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model scratch loaded.
-2021-12-10 15:55:07,006 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: scratch, count: 8
-2021-12-10 15:55:07,113 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: KQueueServerSocketChannel.
-2021-12-10 15:55:07,363 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://0.0.0.0:9000
-2021-12-10 15:55:07,363 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: KQueueServerSocketChannel.
-2021-12-10 15:55:07,422 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://0.0.0.0:9081
-2021-12-10 15:55:07,426 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: KQueueServerSocketChannel.
-2021-12-10 15:55:07,435 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://0.0.0.0:9082
-2021-12-10 15:55:07,849 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9016-scratch_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:07,850 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016
-2021-12-10 15:55:07,893 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9021-scratch_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:07,893 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021
-2021-12-10 15:55:07,894 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9020-scratch_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:07,894 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020
-2021-12-10 15:55:07,893 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9017-scratch_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:07,894 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017
-2021-12-10 15:55:07,913 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9019-scratch_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:07,914 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9022-scratch_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:07,914 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019
-2021-12-10 15:55:07,920 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022
-2021-12-10 15:55:07,931 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9023-scratch_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:07,931 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023
-2021-12-10 15:55:07,943 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9018-scratch_1.0 State change null -> WORKER_STARTED
-2021-12-10 15:55:07,981 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018
-2021-12-10 15:55:09,757 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1817
-2021-12-10 15:55:09,757 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1845
-2021-12-10 15:55:09,758 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9021-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:09,758 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9022-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:09,760 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1839
-2021-12-10 15:55:09,760 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1788
-2021-12-10 15:55:09,760 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1754
-2021-12-10 15:55:09,760 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9023-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:09,760 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9017-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:09,760 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9018-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:09,761 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1874
-2021-12-10 15:55:09,761 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1849
-2021-12-10 15:55:09,768 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9020-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:09,768 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9016-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:09,769 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1845
-2021-12-10 15:55:09,769 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9019-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
-2021-12-10 15:55:19,852 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3056
-2021-12-10 15:55:19,887 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1370834, Backend time ns: 3106498000
-2021-12-10 15:55:22,977 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2932
-2021-12-10 15:55:22,997 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 362000, Backend time ns: 2979032500
-2021-12-10 15:55:26,714 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3570
-2021-12-10 15:55:26,724 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 995292, Backend time ns: 3604169166
-2021-12-10 15:55:34,513 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2984
-2021-12-10 15:55:34,520 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1339125, Backend time ns: 3015641041
-2021-12-10 15:55:37,613 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2958
-2021-12-10 15:55:37,624 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 871542, Backend time ns: 2994935458
-2021-12-10 15:55:40,729 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2977
-2021-12-10 15:55:40,734 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 605000, Backend time ns: 3003017541
-2021-12-10 15:55:44,120 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2877
-2021-12-10 15:55:44,134 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 681875, Backend time ns: 2918740000
-2021-12-10 15:56:00,570 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2791
-2021-12-10 15:56:00,579 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 396000, Backend time ns: 2801772125
-2021-12-10 15:56:52,799 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3183
-2021-12-10 15:56:52,806 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1106291, Backend time ns: 3215041125
-2021-12-10 15:57:46,075 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3069
-2021-12-10 15:57:46,091 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 917250, Backend time ns: 3112793416
-2021-12-10 15:57:48,985 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2773
-2021-12-10 15:57:48,993 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 583291, Backend time ns: 2807088167
-2021-12-10 15:57:51,936 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2852
-2021-12-10 15:57:51,942 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 566000, Backend time ns: 2862596542
-2021-12-10 15:57:54,776 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2772
-2021-12-10 15:57:54,783 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 483250, Backend time ns: 2783776792
-2021-12-10 15:57:57,686 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2820
-2021-12-10 15:57:57,692 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 214667, Backend time ns: 2831016083
-2021-12-10 15:58:00,606 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2793
-2021-12-10 15:58:00,612 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 266417, Backend time ns: 2808209167
-2021-12-10 15:58:03,551 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2818
-2021-12-10 15:58:03,560 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 673792, Backend time ns: 2850899583
-2021-12-10 15:58:06,402 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2737
-2021-12-10 15:58:06,412 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 907708, Backend time ns: 2767063709
-2021-12-10 15:58:09,230 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2760
-2021-12-10 15:58:09,232 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 928334, Backend time ns: 2767592166
-2021-12-10 15:58:12,348 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3018
-2021-12-10 15:58:12,355 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 158792, Backend time ns: 3032668000
-2021-12-10 15:58:15,306 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2867
-2021-12-10 15:58:15,307 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 716667, Backend time ns: 2872021583
-2021-12-10 15:58:18,065 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2661
-2021-12-10 15:58:18,069 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 120709, Backend time ns: 2671749875
-2021-12-10 15:58:20,889 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2761
-2021-12-10 15:58:20,900 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 654375, Backend time ns: 2778546584
-2021-12-10 15:58:23,757 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2752
-2021-12-10 15:58:23,771 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 186625, Backend time ns: 2772926292
-2021-12-10 15:58:26,889 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2999
-2021-12-10 15:58:26,893 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 460375, Backend time ns: 3008202583
-2021-12-10 15:58:30,199 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3240
-2021-12-10 15:58:30,208 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 114834, Backend time ns: 3255464333
-2021-12-10 15:58:33,302 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3013
-2021-12-10 15:58:33,309 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 741125, Backend time ns: 3028714375
-2021-12-10 15:58:36,169 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2752
-2021-12-10 15:58:36,171 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 642833, Backend time ns: 2761362208
-2021-12-10 15:58:38,982 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2716
-2021-12-10 15:58:38,986 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 119166, Backend time ns: 2723381959
-2021-12-10 15:58:41,923 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2838
-2021-12-10 15:58:41,926 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 564625, Backend time ns: 2847834208
-2021-12-10 15:58:44,681 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2671
-2021-12-10 15:58:44,682 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 234375, Backend time ns: 2675427667
-2021-12-10 15:58:47,742 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2999
-2021-12-10 15:58:47,747 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 170875, Backend time ns: 3007565584
-2021-12-10 15:59:21,241 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2943
-2021-12-10 15:59:21,250 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 200667, Backend time ns: 2977261542
-2021-12-10 15:59:24,041 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2692
-2021-12-10 15:59:24,050 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 805708, Backend time ns: 2708709875
-2021-12-10 15:59:27,147 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3012
-2021-12-10 15:59:27,160 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 731083, Backend time ns: 3033977458
-2021-12-10 15:59:30,018 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2802
-2021-12-10 15:59:30,026 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 594250, Backend time ns: 2813465000
-2021-12-10 16:01:14,971 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2764
-2021-12-10 16:01:14,983 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 300375, Backend time ns: 2804402459
-2021-12-10 16:01:18,116 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3022
-2021-12-10 16:01:18,126 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 778875, Backend time ns: 3057938167
-2021-12-10 16:01:22,000 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3789
-2021-12-10 16:01:22,012 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 649417, Backend time ns: 3807087958
-2021-12-10 16:01:24,903 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2829
-2021-12-10 16:01:24,906 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 885833, Backend time ns: 2837302000
-2021-12-10 16:01:27,737 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2776
-2021-12-10 16:01:27,739 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 92541, Backend time ns: 2780792417
-2021-12-10 16:01:30,612 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2750
-2021-12-10 16:01:30,627 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 173250, Backend time ns: 2794546500
-2021-12-10 16:01:33,704 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2956
-2021-12-10 16:01:33,714 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 797000, Backend time ns: 2990998208
-2021-12-10 16:01:36,651 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2835
-2021-12-10 16:01:36,662 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 746583, Backend time ns: 2856957542
-2021-12-10 16:01:39,453 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2714
-2021-12-10 16:01:39,464 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 745167, Backend time ns: 2731646750
-2021-12-10 16:01:42,549 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2974
-2021-12-10 16:01:42,568 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 148875, Backend time ns: 3023233917
-2021-12-10 16:01:46,385 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3738
-2021-12-10 16:01:46,389 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 774083, Backend time ns: 3747173292
-2021-12-10 16:01:49,210 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2715
-2021-12-10 16:01:49,217 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 235792, Backend time ns: 2732012208
-2021-12-10 16:01:52,033 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2725
-2021-12-10 16:01:52,036 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 738583, Backend time ns: 2732371500
-2021-12-10 16:01:54,851 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2676
-2021-12-10 16:01:54,865 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 422750, Backend time ns: 2717255625
-2021-12-10 16:01:57,718 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2761
-2021-12-10 16:01:57,719 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1252709, Backend time ns: 2768818375
-2021-12-10 16:02:00,469 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2680
-2021-12-10 16:02:00,471 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 478041, Backend time ns: 2685628084
-2021-12-10 16:02:03,393 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2827
-2021-12-10 16:02:03,404 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 245834, Backend time ns: 2846137041
-2021-12-10 16:02:06,557 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3066
-2021-12-10 16:02:06,562 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 842125, Backend time ns: 3072276750
-2021-12-10 16:02:09,462 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2842
-2021-12-10 16:02:09,464 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 227291, Backend time ns: 2846297167
-2021-12-10 16:02:12,153 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2632
-2021-12-10 16:02:12,155 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 136166, Backend time ns: 2637198250
-2021-12-10 16:02:15,265 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3034
-2021-12-10 16:02:15,266 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 152041, Backend time ns: 3036986459
-2021-12-10 16:02:18,121 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2794
-2021-12-10 16:02:18,125 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 572292, Backend time ns: 2801143458
-2021-12-10 16:02:21,059 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2865
-2021-12-10 16:02:21,061 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 471958, Backend time ns: 2870673125
-2021-12-10 16:02:23,883 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2740
-2021-12-10 16:02:23,886 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 238792, Backend time ns: 2750994958
-2021-12-10 16:02:26,628 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2650
-2021-12-10 16:02:26,631 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 280000, Backend time ns: 2656757333
-2021-12-10 16:02:29,519 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2821
-2021-12-10 16:02:29,524 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 162166, Backend time ns: 2827993375
-2021-12-10 16:02:33,013 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3181
-2021-12-10 16:02:33,021 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1035125, Backend time ns: 3224233584
-2021-12-10 16:02:35,871 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2759
-2021-12-10 16:02:35,873 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 726709, Backend time ns: 2766007166
-2021-12-10 16:02:38,819 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2865
-2021-12-10 16:02:38,821 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 237083, Backend time ns: 2871143459
-2021-12-10 16:02:41,649 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2759
-2021-12-10 16:02:41,652 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 244042, Backend time ns: 2765262791
-2021-12-10 16:02:44,681 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2932
-2021-12-10 16:02:44,689 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 302583, Backend time ns: 2962348792
-2021-12-10 16:02:47,743 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2975
-2021-12-10 16:02:47,744 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 958000, Backend time ns: 2979856750
-2021-12-10 16:02:51,618 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3592
-2021-12-10 16:02:51,628 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 398958, Backend time ns: 3651982167
-2021-12-10 16:02:54,581 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2877
-2021-12-10 16:02:54,585 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 770417, Backend time ns: 2885142125
-2021-12-10 16:02:57,641 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2939
-2021-12-10 16:02:57,656 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 283625, Backend time ns: 2968003125
-2021-12-10 16:03:00,641 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2862
-2021-12-10 16:03:00,655 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1209500, Backend time ns: 2896987917
-2021-12-10 16:03:03,538 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2811
-2021-12-10 16:03:03,541 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 736834, Backend time ns: 2819004875
-2021-12-10 16:03:06,586 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2964
-2021-12-10 16:03:06,588 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 166542, Backend time ns: 2969329750
-2021-12-10 16:03:09,490 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2821
-2021-12-10 16:03:09,492 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 184125, Backend time ns: 2829384375
-2021-12-10 16:03:12,734 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2896
-2021-12-10 16:03:12,744 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 128875, Backend time ns: 2942622209
-2021-12-10 16:03:15,612 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2787
-2021-12-10 16:03:15,615 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 809542, Backend time ns: 2795081583
-2021-12-10 16:03:18,436 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2744
-2021-12-10 16:03:18,438 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 187458, Backend time ns: 2750062834
-2021-12-10 16:03:21,347 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2829
-2021-12-10 16:03:21,349 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 242167, Backend time ns: 2835031500
-2021-12-10 16:03:24,246 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2814
-2021-12-10 16:03:24,249 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 601417, Backend time ns: 2821691041
-2021-12-10 16:03:27,129 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2807
-2021-12-10 16:03:27,130 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 512875, Backend time ns: 2813285209
-2021-12-10 16:03:30,096 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2853
-2021-12-10 16:03:30,113 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 831209, Backend time ns: 2881911083
-2021-12-10 16:03:33,136 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2930
-2021-12-10 16:03:33,140 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1022208, Backend time ns: 2938015125
-2021-12-10 16:03:36,572 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3350
-2021-12-10 16:03:36,580 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 411541, Backend time ns: 3362407792
-2021-12-10 16:03:39,854 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3141
-2021-12-10 16:03:39,870 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 327291, Backend time ns: 3189071417
-2021-12-10 16:03:42,973 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2969
-2021-12-10 16:03:42,981 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1642917, Backend time ns: 3003722833
-2021-12-10 16:03:46,011 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2927
-2021-12-10 16:03:46,032 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1201916, Backend time ns: 2972610417
-2021-12-10 16:03:49,020 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2914
-2021-12-10 16:03:49,028 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 881542, Backend time ns: 2925965958
-2021-12-10 16:03:51,993 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2881
-2021-12-10 16:03:51,999 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 276000, Backend time ns: 2890080333
-2021-12-10 16:03:55,000 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2887
-2021-12-10 16:03:55,010 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 824708, Backend time ns: 2905136417
-2021-12-10 16:03:57,994 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2864
-2021-12-10 16:03:58,008 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 2033083, Backend time ns: 2910807958
-2021-12-10 16:04:01,100 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2963
-2021-12-10 16:04:01,117 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1439041, Backend time ns: 3003368375
-2021-12-10 16:04:04,397 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3187
-2021-12-10 16:04:04,400 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 934334, Backend time ns: 3194421208
-2021-12-10 16:04:07,565 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3056
-2021-12-10 16:04:07,575 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 497333, Backend time ns: 3075594709
-2021-12-10 16:04:10,818 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3174
-2021-12-10 16:04:10,830 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1135750, Backend time ns: 3189899500
-2021-12-10 16:04:13,735 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2801
-2021-12-10 16:04:13,748 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 829083, Backend time ns: 2823685709
-2021-12-10 16:04:16,602 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2762
-2021-12-10 16:04:16,605 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 890125, Backend time ns: 2769797625
-2021-12-10 16:04:19,435 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2717
-2021-12-10 16:04:19,450 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 346417, Backend time ns: 2745466083
-2021-12-10 16:04:22,361 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2810
-2021-12-10 16:04:22,365 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1025875, Backend time ns: 2817738334
-2021-12-10 16:04:25,124 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2690
-2021-12-10 16:04:25,125 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 378125, Backend time ns: 2695204458
-2021-12-10 16:04:27,898 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2640
-2021-12-10 16:04:27,913 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 429167, Backend time ns: 2687337458
-2021-12-10 16:04:30,838 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2824
-2021-12-10 16:04:30,840 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1066792, Backend time ns: 2830602958
-2021-12-10 16:04:33,679 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2756
-2021-12-10 16:04:33,681 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 406250, Backend time ns: 2760011583
-2021-12-10 16:04:36,550 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2794
-2021-12-10 16:04:36,552 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 302458, Backend time ns: 2797404334
-2021-12-10 16:04:39,252 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2616
-2021-12-10 16:04:39,253 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 436042, Backend time ns: 2620398708
-2021-12-10 16:04:42,201 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2890
-2021-12-10 16:04:42,203 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 396000, Backend time ns: 2894231750
-2021-12-10 16:04:45,066 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2807
-2021-12-10 16:04:45,069 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 327875, Backend time ns: 2812193042
-2021-12-10 16:04:47,711 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2565
-2021-12-10 16:04:47,713 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 323500, Backend time ns: 2569645917
-2021-12-10 16:04:50,781 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2982
-2021-12-10 16:04:50,785 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1055667, Backend time ns: 2987138583
-2021-12-10 16:04:53,528 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2667
-2021-12-10 16:04:53,530 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 441667, Backend time ns: 2671136625
-2021-12-10 16:04:56,785 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2979
-2021-12-10 16:04:56,793 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 410875, Backend time ns: 3018568625
-2021-12-10 16:04:59,721 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2845
-2021-12-10 16:04:59,724 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1443708, Backend time ns: 2851119375
-2021-12-10 16:05:02,910 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3128
-2021-12-10 16:05:02,952 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 331834, Backend time ns: 3171452916
-2021-12-10 16:05:06,660 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3641
-2021-12-10 16:05:06,665 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 737959, Backend time ns: 3649486458
-2021-12-10 16:05:09,726 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2975
-2021-12-10 16:05:09,730 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 709875, Backend time ns: 2989440375
-2021-12-10 16:05:12,706 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2895
-2021-12-10 16:05:12,708 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 749959, Backend time ns: 2901939291
-2021-12-10 16:05:16,112 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3139
-2021-12-10 16:05:16,128 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1743875, Backend time ns: 3198488417
-2021-12-10 16:05:19,132 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2908
-2021-12-10 16:05:19,149 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1464292, Backend time ns: 2934419500
-2021-12-10 16:05:22,088 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2830
-2021-12-10 16:05:22,109 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 878834, Backend time ns: 2880115750
-2021-12-10 16:05:25,037 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2796
-2021-12-10 16:05:25,052 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1686625, Backend time ns: 2835757000
-2021-12-10 16:05:27,900 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2741
-2021-12-10 16:05:27,904 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1444792, Backend time ns: 2749936458
-2021-12-10 16:05:30,730 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2738
-2021-12-10 16:05:30,734 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 621916, Backend time ns: 2745481500
-2021-12-10 16:05:33,646 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2830
-2021-12-10 16:05:33,650 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 836750, Backend time ns: 2837614042
-2021-12-10 16:05:36,868 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2872
-2021-12-10 16:05:36,883 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 626125, Backend time ns: 2924798709
-2021-12-10 16:05:39,883 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2908
-2021-12-10 16:05:39,888 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1285209, Backend time ns: 2918928166
-2021-12-10 16:05:43,054 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3082
-2021-12-10 16:05:43,056 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1024334, Backend time ns: 3087251666
-2021-12-10 16:05:46,107 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2955
-2021-12-10 16:05:46,109 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 620208, Backend time ns: 2962200833
-2021-12-10 16:05:49,261 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3092
-2021-12-10 16:05:49,268 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 487750, Backend time ns: 3101826667
-2021-12-10 16:05:52,089 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2751
-2021-12-10 16:05:52,090 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 432000, Backend time ns: 2755903625
-2021-12-10 16:05:55,163 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2952
-2021-12-10 16:05:55,178 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1614458, Backend time ns: 2978611958
-2021-12-10 16:05:58,031 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2647
-2021-12-10 16:05:58,037 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1082625, Backend time ns: 2763764542
-2021-12-10 16:06:00,881 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2753
-2021-12-10 16:06:00,884 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.job.Job - Waiting time ns: 962291, Backend time ns: 2758760375
-2021-12-10 16:06:04,501 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3476
-2021-12-10 16:06:04,518 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1118667, Backend time ns: 3534703625
-2021-12-10 16:06:07,611 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2947
-2021-12-10 16:06:07,626 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1868583, Backend time ns: 2989396709
-2021-12-10 16:06:10,805 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3061
-2021-12-10 16:06:10,814 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1273833, Backend time ns: 3085121875
-2021-12-10 16:06:14,241 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3333
-2021-12-10 16:06:14,242 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 964583, Backend time ns: 3343455250
-2021-12-10 16:06:17,298 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2969
-2021-12-10 16:06:17,301 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 432708, Backend time ns: 2985090458
-2021-12-10 16:06:20,972 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3537
-2021-12-10 16:06:20,981 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1614167, Backend time ns: 3577169208
-2021-12-10 16:06:24,111 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2992
-2021-12-10 16:06:24,130 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1717875, Backend time ns: 3032422917
-2021-12-10 16:06:27,212 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2933
-2021-12-10 16:06:27,257 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 2167750, Backend time ns: 3013512791
-2021-12-10 16:06:30,329 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2967
-2021-12-10 16:06:30,333 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1009791, Backend time ns: 2975140292
-2021-12-10 16:06:33,237 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2784
-2021-12-10 16:06:33,254 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 889791, Backend time ns: 2813224334
-2021-12-10 16:06:36,265 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2905
-2021-12-10 16:06:36,267 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 899750, Backend time ns: 2912949209
-2021-12-10 16:06:39,123 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2734
-2021-12-10 16:06:39,144 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 753958, Backend time ns: 2769653375
-2021-12-10 16:06:41,985 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2734
-2021-12-10 16:06:41,986 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1246375, Backend time ns: 2739094791
-2021-12-10 16:06:44,938 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2830
-2021-12-10 16:06:44,955 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1788875, Backend time ns: 2856983916
-2021-12-10 16:06:47,712 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2643
-2021-12-10 16:06:47,714 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1017084, Backend time ns: 2658185125
-2021-12-10 16:06:50,509 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2714
-2021-12-10 16:06:50,512 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 410000, Backend time ns: 2720068959
-2021-12-10 16:06:53,365 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2739
-2021-12-10 16:06:53,382 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1508750, Backend time ns: 2765406208
-2021-12-10 16:06:56,223 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2735
-2021-12-10 16:06:56,224 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1007875, Backend time ns: 2739955584
-2021-12-10 16:06:59,072 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2752
-2021-12-10 16:06:59,074 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 447542, Backend time ns: 2757298375
-2021-12-10 16:07:01,870 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2702
-2021-12-10 16:07:01,873 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 458375, Backend time ns: 2710206208
-2021-12-10 16:07:04,627 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2674
-2021-12-10 16:07:04,628 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 607042, Backend time ns: 2678812291
-2021-12-10 16:07:07,474 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2769
-2021-12-10 16:07:07,475 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 630666, Backend time ns: 2772955000
-2021-12-10 16:07:10,298 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2744
-2021-12-10 16:07:10,303 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 343291, Backend time ns: 2760957750
-2021-12-10 16:07:13,098 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2708
-2021-12-10 16:07:13,103 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 430916, Backend time ns: 2717539042
-2021-12-10 16:07:15,816 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2616
-2021-12-10 16:07:15,819 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 706667, Backend time ns: 2622197708
-2021-12-10 16:07:18,716 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2831
-2021-12-10 16:07:18,719 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 626875, Backend time ns: 2837619625
-2021-12-10 16:07:22,088 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3043
-2021-12-10 16:07:22,106 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1242916, Backend time ns: 3100162167
-2021-12-10 16:07:24,857 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2667
-2021-12-10 16:07:24,862 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1407667, Backend time ns: 2675549708
-2021-12-10 16:07:27,700 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2755
-2021-12-10 16:07:27,701 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 644292, Backend time ns: 2760333000
-2021-12-10 16:07:30,897 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3104
-2021-12-10 16:07:30,901 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 903875, Backend time ns: 3116996333
-2021-12-10 16:07:33,954 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2970
-2021-12-10 16:07:33,963 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 496958, Backend time ns: 2986708292
-2021-12-10 16:07:36,885 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2846
-2021-12-10 16:07:36,887 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1264750, Backend time ns: 2852676416
-2021-12-10 16:07:40,208 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3026
-2021-12-10 16:07:40,218 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 565375, Backend time ns: 3066499583
-2021-12-10 16:07:43,195 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2898
-2021-12-10 16:07:43,200 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 846500, Backend time ns: 2906290417
-2021-12-10 16:07:46,289 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2972
-2021-12-10 16:07:46,305 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1006625, Backend time ns: 2996244209
-2021-12-10 16:07:49,205 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2787
-2021-12-10 16:07:49,214 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1607125, Backend time ns: 2815830250
-2021-12-10 16:07:52,165 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2869
-2021-12-10 16:07:52,167 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1202125, Backend time ns: 2875358125
-2021-12-10 16:07:55,253 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3007
-2021-12-10 16:07:55,258 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 514542, Backend time ns: 3015846125
-2021-12-10 16:07:58,070 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2729
-2021-12-10 16:07:58,073 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 880083, Backend time ns: 2736055334
-2021-12-10 16:08:01,447 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3009
-2021-12-10 16:08:01,467 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 986958, Backend time ns: 3066133209
-2021-12-10 16:08:04,292 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2746
-2021-12-10 16:08:04,296 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1370875, Backend time ns: 2753035625
-2021-12-10 16:08:07,462 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3054
-2021-12-10 16:08:07,469 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 870583, Backend time ns: 3066049834
-2021-12-10 16:08:10,383 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2832
-2021-12-10 16:08:10,386 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 675166, Backend time ns: 2838527417
-2021-12-10 16:08:13,219 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2757
-2021-12-10 16:08:13,222 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 570333, Backend time ns: 2762854250
-2021-12-10 16:08:16,071 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2802
-2021-12-10 16:08:16,073 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 348708, Backend time ns: 2808924792
-2021-12-10 16:08:18,935 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2754
-2021-12-10 16:08:18,948 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1075667, Backend time ns: 2779702583
-2021-12-10 16:08:21,923 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2905
-2021-12-10 16:08:21,925 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1032583, Backend time ns: 2910798208
-2021-12-10 16:08:24,802 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2804
-2021-12-10 16:08:24,804 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.job.Job - Waiting time ns: 509958, Backend time ns: 2813437375
-2021-12-10 16:10:00,749 [INFO ] KQueueEventLoopGroup-2-1 org.pytorch.serve.ModelServer - Inference model server stopped.
-2021-12-10 16:10:00,753 [INFO ] KQueueEventLoopGroup-2-1 org.pytorch.serve.ModelServer - Metrics model server stopped.
-2021-12-10 16:10:00,753 [INFO ] KQueueEventLoopGroup-2-2 org.pytorch.serve.ModelServer - Management model server stopped.
-2021-12-10 16:10:02,848 [INFO ] main org.pytorch.serve.ModelServer - Torchserve stopped.
-2021-12-10 16:10:02,867 [INFO ] Thread-0 org.pytorch.serve.ModelServer - Unregistering model spacing version 1.0
-2021-12-10 16:10:02,868 [DEBUG] Thread-0 org.pytorch.serve.wlm.ModelVersionedRefs - Removed model: spacing version: 1.0
-2021-12-10 16:10:02,869 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9007-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:02,870 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9007-spacing_1.0-stderr
-2021-12-10 16:10:02,872 [INFO ] KQueueEventLoopGroup-5-3 org.pytorch.serve.wlm.WorkerThread - 9007 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:02,874 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9007-spacing_1.0-stdout
-2021-12-10 16:10:02,877 [INFO ] W-9007-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9007-spacing_1.0-stdout
-2021-12-10 16:10:02,881 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:02,881 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:02,882 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:02,884 [WARN ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9007-spacing_1.0-stderr
-2021-12-10 16:10:02,884 [WARN ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9007-spacing_1.0-stdout
-2021-12-10 16:10:02,884 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:02,884 [INFO ] W-9007-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9007-spacing_1.0-stderr
-2021-12-10 16:10:02,902 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9006-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:02,907 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9006-spacing_1.0-stderr
-2021-12-10 16:10:02,908 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9006-spacing_1.0-stdout
-2021-12-10 16:10:02,908 [INFO ] KQueueEventLoopGroup-5-8 org.pytorch.serve.wlm.WorkerThread - 9006 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:02,909 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:02,909 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:02,910 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:02,911 [INFO ] W-9006-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9006-spacing_1.0-stdout
-2021-12-10 16:10:02,912 [WARN ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9006-spacing_1.0-stderr
-2021-12-10 16:10:02,912 [WARN ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9006-spacing_1.0-stdout
-2021-12-10 16:10:02,912 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:02,912 [INFO ] W-9006-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9006-spacing_1.0-stderr
-2021-12-10 16:10:02,921 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9005-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:02,923 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9005-spacing_1.0-stderr
-2021-12-10 16:10:02,923 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9005-spacing_1.0-stdout
-2021-12-10 16:10:02,924 [INFO ] KQueueEventLoopGroup-5-4 org.pytorch.serve.wlm.WorkerThread - 9005 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:02,924 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:02,924 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:02,925 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:02,925 [WARN ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9005-spacing_1.0-stderr
-2021-12-10 16:10:02,926 [WARN ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9005-spacing_1.0-stdout
-2021-12-10 16:10:02,926 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:02,929 [INFO ] W-9005-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9005-spacing_1.0-stderr
-2021-12-10 16:10:02,930 [INFO ] W-9005-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9005-spacing_1.0-stdout
-2021-12-10 16:10:02,934 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9004-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:02,937 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9004-spacing_1.0-stderr
-2021-12-10 16:10:02,939 [INFO ] KQueueEventLoopGroup-5-7 org.pytorch.serve.wlm.WorkerThread - 9004 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:02,940 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9004-spacing_1.0-stdout
-2021-12-10 16:10:02,941 [INFO ] W-9004-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9004-spacing_1.0-stdout
-2021-12-10 16:10:02,944 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:02,944 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:02,945 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:02,948 [WARN ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9004-spacing_1.0-stderr
-2021-12-10 16:10:02,948 [INFO ] W-9004-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9004-spacing_1.0-stderr
-2021-12-10 16:10:02,948 [WARN ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9004-spacing_1.0-stdout
-2021-12-10 16:10:02,948 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:02,955 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9003-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:02,960 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-spacing_1.0-stderr
-2021-12-10 16:10:02,960 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-spacing_1.0-stdout
-2021-12-10 16:10:02,962 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:02,962 [INFO ] KQueueEventLoopGroup-5-5 org.pytorch.serve.wlm.WorkerThread - 9003 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:02,962 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:02,963 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:02,965 [INFO ] W-9003-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9003-spacing_1.0-stdout
-2021-12-10 16:10:02,968 [WARN ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-spacing_1.0-stderr
-2021-12-10 16:10:02,968 [WARN ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-spacing_1.0-stdout
-2021-12-10 16:10:02,968 [INFO ] W-9003-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9003-spacing_1.0-stderr
-2021-12-10 16:10:02,968 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:02,974 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9002-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:02,984 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-spacing_1.0-stderr
-2021-12-10 16:10:02,986 [INFO ] KQueueEventLoopGroup-5-2 org.pytorch.serve.wlm.WorkerThread - 9002 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:02,987 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-spacing_1.0-stdout
-2021-12-10 16:10:02,987 [INFO ] W-9002-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-spacing_1.0-stdout
-2021-12-10 16:10:02,988 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:02,988 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:02,989 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:02,990 [WARN ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-spacing_1.0-stderr
-2021-12-10 16:10:02,990 [WARN ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-spacing_1.0-stdout
-2021-12-10 16:10:02,990 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:02,990 [INFO ] W-9002-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-spacing_1.0-stderr
-2021-12-10 16:10:02,998 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9001-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,000 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-spacing_1.0-stderr
-2021-12-10 16:10:03,004 [INFO ] KQueueEventLoopGroup-5-1 org.pytorch.serve.wlm.WorkerThread - 9001 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,006 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-spacing_1.0-stdout
-2021-12-10 16:10:03,006 [INFO ] W-9001-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-spacing_1.0-stdout
-2021-12-10 16:10:03,007 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,007 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,008 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,017 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9000-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,028 [INFO ] W-9001-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-spacing_1.0-stderr
-2021-12-10 16:10:03,028 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-spacing_1.0-stderr
-2021-12-10 16:10:03,027 [WARN ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-spacing_1.0-stderr
-2021-12-10 16:10:03,028 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-spacing_1.0-stdout
-2021-12-10 16:10:03,030 [INFO ] KQueueEventLoopGroup-5-6 org.pytorch.serve.wlm.WorkerThread - 9000 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,031 [WARN ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-spacing_1.0-stdout
-2021-12-10 16:10:03,031 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,031 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:03,031 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,031 [INFO ] W-9000-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-spacing_1.0-stdout
-2021-12-10 16:10:03,043 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,049 [WARN ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-spacing_1.0-stderr
-2021-12-10 16:10:03,049 [WARN ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-spacing_1.0-stdout
-2021-12-10 16:10:03,049 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:03,049 [INFO ] W-9000-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-spacing_1.0-stderr
-2021-12-10 16:10:03,086 [INFO ] Thread-0 org.pytorch.serve.wlm.ModelManager - Model spacing unregistered.
-2021-12-10 16:10:03,087 [INFO ] Thread-0 org.pytorch.serve.ModelServer - Unregistering model dent version 1.0
-2021-12-10 16:10:03,087 [DEBUG] Thread-0 org.pytorch.serve.wlm.ModelVersionedRefs - Removed model: dent version: 1.0
-2021-12-10 16:10:03,087 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9015-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,087 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9015-dent_1.0-stderr
-2021-12-10 16:10:03,087 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9015-dent_1.0-stdout
-2021-12-10 16:10:03,087 [INFO ] KQueueEventLoopGroup-5-10 org.pytorch.serve.wlm.WorkerThread - 9015 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,087 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,087 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,088 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,088 [INFO ] W-9015-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9015-dent_1.0-stderr
-2021-12-10 16:10:03,088 [WARN ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9015-dent_1.0-stderr
-2021-12-10 16:10:03,088 [WARN ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9015-dent_1.0-stdout
-2021-12-10 16:10:03,088 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:03,090 [INFO ] W-9015-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9015-dent_1.0-stdout
-2021-12-10 16:10:03,097 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9014-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,097 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9014-dent_1.0-stderr
-2021-12-10 16:10:03,097 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9014-dent_1.0-stdout
-2021-12-10 16:10:03,099 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,100 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,101 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,102 [INFO ] KQueueEventLoopGroup-5-12 org.pytorch.serve.wlm.WorkerThread - 9014 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,102 [WARN ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9014-dent_1.0-stderr
-2021-12-10 16:10:03,102 [WARN ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9014-dent_1.0-stdout
-2021-12-10 16:10:03,102 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:03,103 [INFO ] W-9014-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9014-dent_1.0-stderr
-2021-12-10 16:10:03,105 [INFO ] W-9014-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9014-dent_1.0-stdout
-2021-12-10 16:10:03,112 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9013-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,117 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9013-dent_1.0-stderr
-2021-12-10 16:10:03,117 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9013-dent_1.0-stdout
-2021-12-10 16:10:03,118 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,118 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,119 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,120 [INFO ] KQueueEventLoopGroup-5-15 org.pytorch.serve.wlm.WorkerThread - 9013 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,120 [INFO ] W-9013-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9013-dent_1.0-stderr
-2021-12-10 16:10:03,121 [INFO ] W-9013-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9013-dent_1.0-stdout
-2021-12-10 16:10:03,122 [WARN ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9013-dent_1.0-stderr
-2021-12-10 16:10:03,123 [WARN ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9013-dent_1.0-stdout
-2021-12-10 16:10:03,123 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:03,129 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9012-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,130 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9012-dent_1.0-stderr
-2021-12-10 16:10:03,130 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9012-dent_1.0-stdout
-2021-12-10 16:10:03,133 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,133 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,135 [INFO ] KQueueEventLoopGroup-5-11 org.pytorch.serve.wlm.WorkerThread - 9012 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,136 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,137 [WARN ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9012-dent_1.0-stderr
-2021-12-10 16:10:03,138 [WARN ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9012-dent_1.0-stdout
-2021-12-10 16:10:03,138 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:03,138 [INFO ] W-9012-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9012-dent_1.0-stdout
-2021-12-10 16:10:03,138 [INFO ] W-9012-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9012-dent_1.0-stderr
-2021-12-10 16:10:03,147 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9011-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,148 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9011-dent_1.0-stderr
-2021-12-10 16:10:03,148 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9011-dent_1.0-stdout
-2021-12-10 16:10:03,152 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,154 [INFO ] KQueueEventLoopGroup-5-16 org.pytorch.serve.wlm.WorkerThread - 9011 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,156 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,157 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,158 [WARN ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9011-dent_1.0-stderr
-2021-12-10 16:10:03,158 [WARN ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9011-dent_1.0-stdout
-2021-12-10 16:10:03,158 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:03,158 [INFO ] W-9011-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9011-dent_1.0-stderr
-2021-12-10 16:10:03,158 [INFO ] W-9011-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9011-dent_1.0-stdout
-2021-12-10 16:10:03,164 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9010-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,164 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9010-dent_1.0-stderr
-2021-12-10 16:10:03,164 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9010-dent_1.0-stdout
-2021-12-10 16:10:03,171 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,173 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,173 [INFO ] KQueueEventLoopGroup-5-9 org.pytorch.serve.wlm.WorkerThread - 9010 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,174 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,175 [INFO ] W-9010-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9010-dent_1.0-stderr
-2021-12-10 16:10:03,176 [WARN ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9010-dent_1.0-stderr
-2021-12-10 16:10:03,176 [WARN ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9010-dent_1.0-stdout
-2021-12-10 16:10:03,176 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:03,177 [INFO ] W-9010-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9010-dent_1.0-stdout
-2021-12-10 16:10:03,182 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9009-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,182 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9009-dent_1.0-stderr
-2021-12-10 16:10:03,182 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9009-dent_1.0-stdout
-2021-12-10 16:10:03,184 [INFO ] KQueueEventLoopGroup-5-14 org.pytorch.serve.wlm.WorkerThread - 9009 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,186 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,186 [INFO ] W-9009-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9009-dent_1.0-stdout
-2021-12-10 16:10:03,186 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,186 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,187 [INFO ] W-9009-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9009-dent_1.0-stderr
-2021-12-10 16:10:03,187 [WARN ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9009-dent_1.0-stderr
-2021-12-10 16:10:03,187 [WARN ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9009-dent_1.0-stdout
-2021-12-10 16:10:03,187 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
-2021-12-10 16:10:03,197 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9008-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
-2021-12-10 16:10:03,197 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9008-dent_1.0-stderr
-2021-12-10 16:10:03,197 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9008-dent_1.0-stdout
-2021-12-10 16:10:03,199 [INFO ] KQueueEventLoopGroup-5-13 org.pytorch.serve.wlm.WorkerThread - 9008 Worker disconnected. WORKER_SCALED_DOWN
-2021-12-10 16:10:03,200 [INFO ] W-9008-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9008-dent_1.0-stdout
-2021-12-10 16:10:03,200 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
-2021-12-10 16:10:03,200 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
-2021-12-10 16:10:03,200 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
-2021-12-10 16:10:03,200 [INFO ] W-9008-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9008-dent_1.0-stderr
-2021-12-10 16:10:03,201 [WARN ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9008-dent_1.0-stderr
-2021-12-10 16:10:03,201 [WARN ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9008-dent_1.0-stdout
-2021-12-10 16:10:03,201 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 13:31:49,104 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2021-12-14 13:31:49,148 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: spacing.mar
+2021-12-14 13:31:51,774 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model spacing
+2021-12-14 13:31:51,774 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model spacing
+2021-12-14 13:31:51,774 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model spacing loaded.
+2021-12-14 13:31:51,775 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: spacing, count: 8
+2021-12-14 13:31:51,789 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: dent.mar
+2021-12-14 13:31:52,475 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-spacing_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:52,564 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9005
+2021-12-14 13:31:52,653 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-spacing_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:52,657 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9002
+2021-12-14 13:31:52,661 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-spacing_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:52,661 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-spacing_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:52,662 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9001
+2021-12-14 13:31:52,663 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-spacing_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:52,663 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9003
+2021-12-14 13:31:52,663 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9007
+2021-12-14 13:31:52,666 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-spacing_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:52,666 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-spacing_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:52,666 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9004
+2021-12-14 13:31:52,666 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9000
+2021-12-14 13:31:52,678 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-spacing_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:52,678 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9006
+2021-12-14 13:31:54,829 [INFO ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1887
+2021-12-14 13:31:54,830 [INFO ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1884
+2021-12-14 13:31:54,830 [INFO ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1877
+2021-12-14 13:31:54,829 [INFO ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1879
+2021-12-14 13:31:54,836 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:54,836 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:54,836 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:54,842 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:54,846 [INFO ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1906
+2021-12-14 13:31:54,846 [INFO ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1904
+2021-12-14 13:31:54,851 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:54,851 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:54,852 [INFO ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1914
+2021-12-14 13:31:54,853 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:54,858 [INFO ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1919
+2021-12-14 13:31:54,859 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-spacing_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:55,817 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model dent
+2021-12-14 13:31:55,818 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model dent
+2021-12-14 13:31:55,818 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model dent loaded.
+2021-12-14 13:31:55,818 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: dent, count: 8
+2021-12-14 13:31:55,825 [DEBUG] main org.pytorch.serve.ModelServer - Loading models from model store: scratch.mar
+2021-12-14 13:31:56,645 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-dent_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:56,646 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9009
+2021-12-14 13:31:56,655 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-dent_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:56,656 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9013
+2021-12-14 13:31:56,753 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-dent_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:56,754 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-dent_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:56,776 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9015
+2021-12-14 13:31:56,778 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9014
+2021-12-14 13:31:56,782 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-dent_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:56,782 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-dent_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:56,784 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-dent_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:56,785 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9010
+2021-12-14 13:31:56,785 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9011
+2021-12-14 13:31:56,785 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-dent_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:31:56,785 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9012
+2021-12-14 13:31:56,785 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9008
+2021-12-14 13:31:58,850 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2066
+2021-12-14 13:31:58,851 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:58,921 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1987
+2021-12-14 13:31:58,921 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:58,942 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2008
+2021-12-14 13:31:58,943 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:58,943 [INFO ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1993
+2021-12-14 13:31:58,943 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:58,943 [INFO ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2009
+2021-12-14 13:31:58,948 [INFO ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1855
+2021-12-14 13:31:58,949 [INFO ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2144
+2021-12-14 13:31:58,949 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:58,950 [INFO ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2004
+2021-12-14 13:31:58,950 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:58,951 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:31:58,953 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-dent_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:32:00,373 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model scratch
+2021-12-14 13:32:00,374 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model scratch
+2021-12-14 13:32:00,374 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model scratch loaded.
+2021-12-14 13:32:00,374 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: scratch, count: 8
+2021-12-14 13:32:00,503 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: KQueueServerSocketChannel.
+2021-12-14 13:32:00,584 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://0.0.0.0:9000
+2021-12-14 13:32:00,587 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: KQueueServerSocketChannel.
+2021-12-14 13:32:00,595 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://0.0.0.0:9081
+2021-12-14 13:32:00,597 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: KQueueServerSocketChannel.
+2021-12-14 13:32:00,599 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://0.0.0.0:9082
+2021-12-14 13:32:01,328 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9019-scratch_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:32:01,329 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9023-scratch_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:32:01,329 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9019
+2021-12-14 13:32:01,329 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9023
+2021-12-14 13:32:01,350 [WARN ] pool-2-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2021-12-14 13:32:01,371 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9021-scratch_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:32:01,372 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9017-scratch_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:32:01,373 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9021
+2021-12-14 13:32:01,375 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9018-scratch_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:32:01,375 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9018
+2021-12-14 13:32:01,376 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9017
+2021-12-14 13:32:01,435 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9016-scratch_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:32:01,551 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9016
+2021-12-14 13:32:01,552 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9020-scratch_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:32:01,553 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9022-scratch_1.0 State change null -> WORKER_STARTED
+2021-12-14 13:32:01,553 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9022
+2021-12-14 13:32:01,553 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Connecting to: /var/folders/l9/47_zg5s92xn2x10nhh5p73l40000gn/T//.ts.sock.9020
+2021-12-14 13:32:03,544 [INFO ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2169
+2021-12-14 13:32:03,545 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9019-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:32:03,597 [INFO ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2195
+2021-12-14 13:32:03,597 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9018-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:32:03,717 [INFO ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2317
+2021-12-14 13:32:03,719 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9021-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:32:03,725 [INFO ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2349
+2021-12-14 13:32:03,725 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9023-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:32:03,726 [INFO ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2045
+2021-12-14 13:32:03,727 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9016-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:32:03,735 [INFO ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2298
+2021-12-14 13:32:03,735 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9017-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:32:03,739 [INFO ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2057
+2021-12-14 13:32:03,739 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9022-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:32:03,743 [INFO ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2104
+2021-12-14 13:32:03,743 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9020-scratch_1.0 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2021-12-14 13:32:11,096 [INFO ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3231
+2021-12-14 13:32:11,124 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 1608750, Backend time ns: 3275255250
+2021-12-14 13:32:14,170 [INFO ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 2904
+2021-12-14 13:32:14,190 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 320709, Backend time ns: 2959178708
+2021-12-14 13:32:17,407 [INFO ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Backend response time: 3073
+2021-12-14 13:32:17,420 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.job.Job - Waiting time ns: 722791, Backend time ns: 3107918375
+2021-12-14 16:45:23,027 [INFO ] KQueueEventLoopGroup-2-1 org.pytorch.serve.ModelServer - Inference model server stopped.
+2021-12-14 16:45:23,030 [INFO ] KQueueEventLoopGroup-2-2 org.pytorch.serve.ModelServer - Management model server stopped.
+2021-12-14 16:45:23,033 [INFO ] KQueueEventLoopGroup-2-1 org.pytorch.serve.ModelServer - Metrics model server stopped.
+2021-12-14 16:45:25,173 [INFO ] main org.pytorch.serve.ModelServer - Torchserve stopped.
+2021-12-14 16:45:25,188 [INFO ] Thread-0 org.pytorch.serve.ModelServer - Unregistering model spacing version 1.0
+2021-12-14 16:45:25,189 [DEBUG] Thread-0 org.pytorch.serve.wlm.ModelVersionedRefs - Removed model: spacing version: 1.0
+2021-12-14 16:45:25,190 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9007-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,191 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9007-spacing_1.0-stderr
+2021-12-14 16:45:25,191 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9007-spacing_1.0-stdout
+2021-12-14 16:45:25,193 [INFO ] KQueueEventLoopGroup-5-2 org.pytorch.serve.wlm.WorkerThread - 9007 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,196 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,197 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,198 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9007-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,203 [WARN ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9007-spacing_1.0-stderr
+2021-12-14 16:45:25,204 [WARN ] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9007-spacing_1.0-stdout
+2021-12-14 16:45:25,204 [DEBUG] W-9007-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,205 [INFO ] W-9007-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9007-spacing_1.0-stdout
+2021-12-14 16:45:25,206 [INFO ] W-9007-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9007-spacing_1.0-stderr
+2021-12-14 16:45:25,219 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9006-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,220 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9006-spacing_1.0-stderr
+2021-12-14 16:45:25,220 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9006-spacing_1.0-stdout
+2021-12-14 16:45:25,220 [INFO ] KQueueEventLoopGroup-5-7 org.pytorch.serve.wlm.WorkerThread - 9006 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,220 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,221 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,222 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9006-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,223 [WARN ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9006-spacing_1.0-stderr
+2021-12-14 16:45:25,223 [WARN ] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9006-spacing_1.0-stdout
+2021-12-14 16:45:25,223 [DEBUG] W-9006-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,224 [INFO ] W-9006-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9006-spacing_1.0-stdout
+2021-12-14 16:45:25,224 [INFO ] W-9006-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9006-spacing_1.0-stderr
+2021-12-14 16:45:25,231 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9005-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,233 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9005-spacing_1.0-stderr
+2021-12-14 16:45:25,234 [INFO ] KQueueEventLoopGroup-5-1 org.pytorch.serve.wlm.WorkerThread - 9005 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,238 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9005-spacing_1.0-stdout
+2021-12-14 16:45:25,239 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,239 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,239 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9005-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,240 [INFO ] W-9005-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9005-spacing_1.0-stdout
+2021-12-14 16:45:25,241 [INFO ] W-9005-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9005-spacing_1.0-stderr
+2021-12-14 16:45:25,241 [WARN ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9005-spacing_1.0-stderr
+2021-12-14 16:45:25,242 [WARN ] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9005-spacing_1.0-stdout
+2021-12-14 16:45:25,242 [DEBUG] W-9005-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,248 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9004-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,248 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9004-spacing_1.0-stderr
+2021-12-14 16:45:25,248 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9004-spacing_1.0-stdout
+2021-12-14 16:45:25,248 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,251 [INFO ] KQueueEventLoopGroup-5-3 org.pytorch.serve.wlm.WorkerThread - 9004 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,252 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,253 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9004-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,257 [INFO ] W-9004-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9004-spacing_1.0-stderr
+2021-12-14 16:45:25,258 [WARN ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9004-spacing_1.0-stderr
+2021-12-14 16:45:25,258 [INFO ] W-9004-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9004-spacing_1.0-stdout
+2021-12-14 16:45:25,261 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9003-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,264 [WARN ] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9004-spacing_1.0-stdout
+2021-12-14 16:45:25,267 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-spacing_1.0-stderr
+2021-12-14 16:45:25,267 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-spacing_1.0-stdout
+2021-12-14 16:45:25,267 [DEBUG] W-9004-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,268 [INFO ] KQueueEventLoopGroup-5-8 org.pytorch.serve.wlm.WorkerThread - 9003 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,272 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,274 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,274 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9003-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,275 [INFO ] W-9003-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9003-spacing_1.0-stdout
+2021-12-14 16:45:25,275 [INFO ] W-9003-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9003-spacing_1.0-stderr
+2021-12-14 16:45:25,276 [WARN ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-spacing_1.0-stderr
+2021-12-14 16:45:25,277 [WARN ] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9003-spacing_1.0-stdout
+2021-12-14 16:45:25,277 [DEBUG] W-9003-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,280 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9002-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,284 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-spacing_1.0-stderr
+2021-12-14 16:45:25,285 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-spacing_1.0-stdout
+2021-12-14 16:45:25,287 [INFO ] KQueueEventLoopGroup-5-6 org.pytorch.serve.wlm.WorkerThread - 9002 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,287 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,288 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,289 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9002-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,290 [INFO ] W-9002-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-spacing_1.0-stdout
+2021-12-14 16:45:25,290 [INFO ] W-9002-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9002-spacing_1.0-stderr
+2021-12-14 16:45:25,290 [WARN ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-spacing_1.0-stderr
+2021-12-14 16:45:25,291 [WARN ] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9002-spacing_1.0-stdout
+2021-12-14 16:45:25,292 [DEBUG] W-9002-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,296 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9001-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,296 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-spacing_1.0-stderr
+2021-12-14 16:45:25,296 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-spacing_1.0-stdout
+2021-12-14 16:45:25,297 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,299 [INFO ] KQueueEventLoopGroup-5-5 org.pytorch.serve.wlm.WorkerThread - 9001 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,301 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,304 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9001-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,305 [INFO ] W-9001-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-spacing_1.0-stderr
+2021-12-14 16:45:25,305 [INFO ] W-9001-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9001-spacing_1.0-stdout
+2021-12-14 16:45:25,306 [WARN ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-spacing_1.0-stderr
+2021-12-14 16:45:25,306 [WARN ] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9001-spacing_1.0-stdout
+2021-12-14 16:45:25,306 [DEBUG] W-9001-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,306 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9000-spacing_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,308 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-spacing_1.0-stderr
+2021-12-14 16:45:25,310 [INFO ] KQueueEventLoopGroup-5-4 org.pytorch.serve.wlm.WorkerThread - 9000 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,311 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-spacing_1.0-stdout
+2021-12-14 16:45:25,311 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,312 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,312 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - W-9000-spacing_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,313 [INFO ] W-9000-spacing_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-spacing_1.0-stdout
+2021-12-14 16:45:25,314 [INFO ] W-9000-spacing_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-spacing_1.0-stderr
+2021-12-14 16:45:25,315 [WARN ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-spacing_1.0-stderr
+2021-12-14 16:45:25,315 [WARN ] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-spacing_1.0-stdout
+2021-12-14 16:45:25,315 [DEBUG] W-9000-spacing_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,380 [INFO ] Thread-0 org.pytorch.serve.wlm.ModelManager - Model spacing unregistered.
+2021-12-14 16:45:25,381 [INFO ] Thread-0 org.pytorch.serve.ModelServer - Unregistering model dent version 1.0
+2021-12-14 16:45:25,381 [DEBUG] Thread-0 org.pytorch.serve.wlm.ModelVersionedRefs - Removed model: dent version: 1.0
+2021-12-14 16:45:25,381 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9015-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,381 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9015-dent_1.0-stderr
+2021-12-14 16:45:25,381 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9015-dent_1.0-stdout
+2021-12-14 16:45:25,381 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,382 [INFO ] KQueueEventLoopGroup-5-15 org.pytorch.serve.wlm.WorkerThread - 9015 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,383 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,384 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9015-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,385 [WARN ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9015-dent_1.0-stderr
+2021-12-14 16:45:25,385 [WARN ] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9015-dent_1.0-stdout
+2021-12-14 16:45:25,385 [DEBUG] W-9015-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,385 [INFO ] W-9015-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9015-dent_1.0-stderr
+2021-12-14 16:45:25,388 [INFO ] W-9015-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9015-dent_1.0-stdout
+2021-12-14 16:45:25,390 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9014-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,393 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9014-dent_1.0-stderr
+2021-12-14 16:45:25,394 [INFO ] KQueueEventLoopGroup-5-13 org.pytorch.serve.wlm.WorkerThread - 9014 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,396 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9014-dent_1.0-stdout
+2021-12-14 16:45:25,396 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,396 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,397 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9014-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,400 [INFO ] W-9014-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9014-dent_1.0-stdout
+2021-12-14 16:45:25,401 [INFO ] W-9014-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9014-dent_1.0-stderr
+2021-12-14 16:45:25,401 [WARN ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9014-dent_1.0-stderr
+2021-12-14 16:45:25,403 [WARN ] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9014-dent_1.0-stdout
+2021-12-14 16:45:25,403 [DEBUG] W-9014-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,410 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9013-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,411 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9013-dent_1.0-stderr
+2021-12-14 16:45:25,411 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9013-dent_1.0-stdout
+2021-12-14 16:45:25,412 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,412 [INFO ] KQueueEventLoopGroup-5-10 org.pytorch.serve.wlm.WorkerThread - 9013 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,412 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,413 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9013-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,415 [WARN ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9013-dent_1.0-stderr
+2021-12-14 16:45:25,415 [WARN ] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9013-dent_1.0-stdout
+2021-12-14 16:45:25,415 [DEBUG] W-9013-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,415 [INFO ] W-9013-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9013-dent_1.0-stderr
+2021-12-14 16:45:25,416 [INFO ] W-9013-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9013-dent_1.0-stdout
+2021-12-14 16:45:25,423 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9012-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,423 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9012-dent_1.0-stderr
+2021-12-14 16:45:25,423 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9012-dent_1.0-stdout
+2021-12-14 16:45:25,424 [INFO ] KQueueEventLoopGroup-5-12 org.pytorch.serve.wlm.WorkerThread - 9012 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,424 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,425 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,425 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9012-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,427 [INFO ] W-9012-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9012-dent_1.0-stdout
+2021-12-14 16:45:25,427 [WARN ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9012-dent_1.0-stderr
+2021-12-14 16:45:25,427 [WARN ] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9012-dent_1.0-stdout
+2021-12-14 16:45:25,427 [DEBUG] W-9012-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,428 [INFO ] W-9012-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9012-dent_1.0-stderr
+2021-12-14 16:45:25,434 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9011-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,435 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9011-dent_1.0-stderr
+2021-12-14 16:45:25,435 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9011-dent_1.0-stdout
+2021-12-14 16:45:25,436 [INFO ] KQueueEventLoopGroup-5-16 org.pytorch.serve.wlm.WorkerThread - 9011 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,436 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,437 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,438 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9011-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,439 [WARN ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9011-dent_1.0-stderr
+2021-12-14 16:45:25,439 [WARN ] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9011-dent_1.0-stdout
+2021-12-14 16:45:25,440 [INFO ] W-9011-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9011-dent_1.0-stderr
+2021-12-14 16:45:25,441 [DEBUG] W-9011-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,442 [INFO ] W-9011-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9011-dent_1.0-stdout
+2021-12-14 16:45:25,448 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9010-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,449 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9010-dent_1.0-stderr
+2021-12-14 16:45:25,449 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9010-dent_1.0-stdout
+2021-12-14 16:45:25,449 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,449 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,450 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9010-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,453 [INFO ] KQueueEventLoopGroup-5-11 org.pytorch.serve.wlm.WorkerThread - 9010 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,459 [INFO ] W-9010-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9010-dent_1.0-stderr
+2021-12-14 16:45:25,462 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9009-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,461 [WARN ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9010-dent_1.0-stderr
+2021-12-14 16:45:25,463 [INFO ] W-9010-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9010-dent_1.0-stdout
+2021-12-14 16:45:25,464 [INFO ] KQueueEventLoopGroup-5-9 org.pytorch.serve.wlm.WorkerThread - 9009 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,464 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9009-dent_1.0-stderr
+2021-12-14 16:45:25,464 [WARN ] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9010-dent_1.0-stdout
+2021-12-14 16:45:25,471 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,471 [DEBUG] W-9010-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,471 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9009-dent_1.0-stdout
+2021-12-14 16:45:25,471 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,472 [INFO ] W-9009-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9009-dent_1.0-stdout
+2021-12-14 16:45:25,474 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9009-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,476 [INFO ] W-9009-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9009-dent_1.0-stderr
+2021-12-14 16:45:25,477 [WARN ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9009-dent_1.0-stderr
+2021-12-14 16:45:25,477 [WARN ] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9009-dent_1.0-stdout
+2021-12-14 16:45:25,477 [DEBUG] W-9009-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,483 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9008-dent_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,483 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9008-dent_1.0-stderr
+2021-12-14 16:45:25,483 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9008-dent_1.0-stdout
+2021-12-14 16:45:25,483 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,483 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,483 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - W-9008-dent_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,485 [INFO ] KQueueEventLoopGroup-5-14 org.pytorch.serve.wlm.WorkerThread - 9008 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,488 [WARN ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9008-dent_1.0-stderr
+2021-12-14 16:45:25,488 [INFO ] W-9008-dent_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9008-dent_1.0-stderr
+2021-12-14 16:45:25,488 [WARN ] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9008-dent_1.0-stdout
+2021-12-14 16:45:25,488 [DEBUG] W-9008-dent_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,490 [INFO ] W-9008-dent_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9008-dent_1.0-stdout
+2021-12-14 16:45:25,608 [INFO ] Thread-0 org.pytorch.serve.wlm.ModelManager - Model dent unregistered.
+2021-12-14 16:45:25,608 [INFO ] Thread-0 org.pytorch.serve.ModelServer - Unregistering model scratch version 1.0
+2021-12-14 16:45:25,608 [DEBUG] Thread-0 org.pytorch.serve.wlm.ModelVersionedRefs - Removed model: scratch version: 1.0
+2021-12-14 16:45:25,608 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9023-scratch_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,609 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9023-scratch_1.0-stderr
+2021-12-14 16:45:25,609 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9023-scratch_1.0-stdout
+2021-12-14 16:45:25,609 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,609 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,610 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9023-scratch_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,610 [INFO ] KQueueEventLoopGroup-5-7 org.pytorch.serve.wlm.WorkerThread - 9023 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,610 [WARN ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9023-scratch_1.0-stderr
+2021-12-14 16:45:25,610 [WARN ] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9023-scratch_1.0-stdout
+2021-12-14 16:45:25,610 [DEBUG] W-9023-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,611 [INFO ] W-9023-scratch_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9023-scratch_1.0-stdout
+2021-12-14 16:45:25,611 [INFO ] W-9023-scratch_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9023-scratch_1.0-stderr
+2021-12-14 16:45:25,618 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9022-scratch_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,619 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9022-scratch_1.0-stderr
+2021-12-14 16:45:25,619 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9022-scratch_1.0-stdout
+2021-12-14 16:45:25,619 [INFO ] KQueueEventLoopGroup-5-1 org.pytorch.serve.wlm.WorkerThread - 9022 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,619 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,619 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,620 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9022-scratch_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,620 [INFO ] W-9022-scratch_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9022-scratch_1.0-stderr
+2021-12-14 16:45:25,620 [WARN ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9022-scratch_1.0-stderr
+2021-12-14 16:45:25,620 [WARN ] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9022-scratch_1.0-stdout
+2021-12-14 16:45:25,620 [DEBUG] W-9022-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,621 [INFO ] W-9022-scratch_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9022-scratch_1.0-stdout
+2021-12-14 16:45:25,628 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9021-scratch_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,629 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9021-scratch_1.0-stderr
+2021-12-14 16:45:25,629 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9021-scratch_1.0-stdout
+2021-12-14 16:45:25,629 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,629 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,629 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9021-scratch_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,629 [INFO ] KQueueEventLoopGroup-5-8 org.pytorch.serve.wlm.WorkerThread - 9021 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,629 [WARN ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9021-scratch_1.0-stderr
+2021-12-14 16:45:25,629 [WARN ] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9021-scratch_1.0-stdout
+2021-12-14 16:45:25,629 [DEBUG] W-9021-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,629 [INFO ] W-9021-scratch_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9021-scratch_1.0-stdout
+2021-12-14 16:45:25,629 [INFO ] W-9021-scratch_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9021-scratch_1.0-stderr
+2021-12-14 16:45:25,639 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9020-scratch_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,640 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9020-scratch_1.0-stderr
+2021-12-14 16:45:25,640 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9020-scratch_1.0-stdout
+2021-12-14 16:45:25,640 [INFO ] KQueueEventLoopGroup-5-3 org.pytorch.serve.wlm.WorkerThread - 9020 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,640 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,640 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,640 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9020-scratch_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,640 [INFO ] W-9020-scratch_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9020-scratch_1.0-stdout
+2021-12-14 16:45:25,640 [INFO ] W-9020-scratch_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9020-scratch_1.0-stderr
+2021-12-14 16:45:25,641 [WARN ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9020-scratch_1.0-stderr
+2021-12-14 16:45:25,641 [WARN ] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9020-scratch_1.0-stdout
+2021-12-14 16:45:25,641 [DEBUG] W-9020-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,654 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9019-scratch_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,654 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9019-scratch_1.0-stderr
+2021-12-14 16:45:25,654 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9019-scratch_1.0-stdout
+2021-12-14 16:45:25,655 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,655 [INFO ] KQueueEventLoopGroup-5-2 org.pytorch.serve.wlm.WorkerThread - 9019 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,655 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,655 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9019-scratch_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,655 [WARN ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9019-scratch_1.0-stderr
+2021-12-14 16:45:25,656 [WARN ] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9019-scratch_1.0-stdout
+2021-12-14 16:45:25,656 [DEBUG] W-9019-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,656 [INFO ] W-9019-scratch_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9019-scratch_1.0-stdout
+2021-12-14 16:45:25,656 [INFO ] W-9019-scratch_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9019-scratch_1.0-stderr
+2021-12-14 16:45:25,666 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9018-scratch_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,666 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9018-scratch_1.0-stderr
+2021-12-14 16:45:25,666 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9018-scratch_1.0-stdout
+2021-12-14 16:45:25,667 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,667 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,667 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9018-scratch_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,667 [INFO ] W-9018-scratch_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9018-scratch_1.0-stdout
+2021-12-14 16:45:25,667 [WARN ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9018-scratch_1.0-stderr
+2021-12-14 16:45:25,667 [INFO ] W-9018-scratch_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9018-scratch_1.0-stderr
+2021-12-14 16:45:25,667 [WARN ] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9018-scratch_1.0-stdout
+2021-12-14 16:45:25,667 [DEBUG] W-9018-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,667 [INFO ] KQueueEventLoopGroup-5-5 org.pytorch.serve.wlm.WorkerThread - 9018 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,681 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9017-scratch_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,682 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9017-scratch_1.0-stderr
+2021-12-14 16:45:25,682 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9017-scratch_1.0-stdout
+2021-12-14 16:45:25,682 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,682 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,682 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9017-scratch_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,682 [INFO ] KQueueEventLoopGroup-5-6 org.pytorch.serve.wlm.WorkerThread - 9017 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,683 [WARN ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9017-scratch_1.0-stderr
+2021-12-14 16:45:25,683 [WARN ] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9017-scratch_1.0-stdout
+2021-12-14 16:45:25,683 [DEBUG] W-9017-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,683 [INFO ] W-9017-scratch_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9017-scratch_1.0-stdout
+2021-12-14 16:45:25,693 [INFO ] W-9017-scratch_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9017-scratch_1.0-stderr
+2021-12-14 16:45:25,696 [DEBUG] Thread-0 org.pytorch.serve.wlm.WorkerThread - W-9016-scratch_1.0 State change WORKER_MODEL_LOADED -> WORKER_SCALED_DOWN
+2021-12-14 16:45:25,696 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9016-scratch_1.0-stderr
+2021-12-14 16:45:25,696 [WARN ] Thread-0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9016-scratch_1.0-stdout
+2021-12-14 16:45:25,697 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - System state is : WORKER_SCALED_DOWN
+2021-12-14 16:45:25,697 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Shutting down the thread .. Scaling down.
+2021-12-14 16:45:25,697 [INFO ] KQueueEventLoopGroup-5-4 org.pytorch.serve.wlm.WorkerThread - 9016 Worker disconnected. WORKER_SCALED_DOWN
+2021-12-14 16:45:25,697 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - W-9016-scratch_1.0 State change WORKER_SCALED_DOWN -> WORKER_STOPPED
+2021-12-14 16:45:25,700 [INFO ] W-9016-scratch_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9016-scratch_1.0-stderr
+2021-12-14 16:45:25,700 [INFO ] W-9016-scratch_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9016-scratch_1.0-stdout
+2021-12-14 16:45:25,701 [WARN ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9016-scratch_1.0-stderr
+2021-12-14 16:45:25,701 [WARN ] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9016-scratch_1.0-stdout
+2021-12-14 16:45:25,701 [DEBUG] W-9016-scratch_1.0 org.pytorch.serve.wlm.WorkerThread - Worker terminated due to scale-down call.
+2021-12-14 16:45:25,797 [INFO ] Thread-0 org.pytorch.serve.wlm.ModelManager - Model scratch unregistered.
