@@ -23,7 +23,7 @@
 - [Java 11](https://www.oracle.com/java/technologies/downloads/#java11)
 - TorchServe
 
-## Install TorchServe and Its Denpendecies
+## Install TorchServe and Its Dependecies
 Install Pytorch and TorchVision
 ```
 conda install pytorch torchvision torchaudio -c pytorch
