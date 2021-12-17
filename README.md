@@ -12,7 +12,7 @@
          - dent
          - scartch
          - spacing
-- [x] Define payload 
+- [x] GCS upload test 
 
 ## Payload Example
 ![](_asset/payload.png)
