@@ -3,8 +3,8 @@
 
 ![torchserve](_asset/TorchServe.png)
 
-- [x] local에서 한 장씩 inference
-- [x] local에서 torchserve 
+- [x] Inference test on local
+- [x] Run TorchServe server on local
     - [x] `mar_builder.py`
     - [x] `config.properties`
     - [x] manifest
@@ -12,6 +12,7 @@
          - dent
          - scartch
          - spacing
+- [x] Define payload 
 
 ## Payload Example
 ![](_asset/payload.png)
